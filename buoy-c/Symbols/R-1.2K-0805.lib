@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 1.2K
+#
+DEF 1.2K R 0 0 N N 1 F N
+F0 "R" 100 200 50 H V C CNN
+F1 "1.2K" 150 100 50 H V C CNN
+F2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" 2600 500 100 H I C CNN
+F3 "" 0 0 100 H I C CNN
+F4 "Digi-Key" 550 300 100 H I C CNN "Supplier 1"
+F5 "311-1.2KARCT-ND" 1650 300 100 H I C CNN "Supplier Part Number 1"
+F6 "YAGEO" 550 100 100 H I C CNN "Manufacturer"
+F7 "RC0805JR-071K2L" 1650 100 100 H I C CNN "Manufacturer Part Number"
+DRAW
+S -40 -100 40 100 1 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
