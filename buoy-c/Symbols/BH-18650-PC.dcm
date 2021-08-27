@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BH-18650-PC
+D Battery Holder (Open) 18650 1 Cell PC Pin
+K BATTERY HOLDER 18650 PC PIN
+F http://www.memoryprotectiondevices.com/datasheets/BH-18650-PC-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

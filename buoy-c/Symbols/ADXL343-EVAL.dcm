@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADXL343-EVAL
+D ADXL343 series Accelerometer, 3 Axis Sensor Evaluation Board
+K TRIPLE-AXIS ACCELEROME
+F https://cdn-learn.adafruit.com/downloads/pdf/adxl343-breakout-learning-guide.pdf
+$ENDCMP
+#
+#End Doc Library

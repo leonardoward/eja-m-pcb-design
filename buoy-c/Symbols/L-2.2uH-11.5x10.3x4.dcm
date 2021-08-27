@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 104CDMCCDS-2R2MC
+D 2.2 µH Shielded Molded Inductor 15 A 7mOhm Max Nonstandard
+K FIXED IND 2.2UH 15A 7 MOHM SMD
+F https://products.sumida.com/products/pdf/104CDMCCDS.pdf
+$ENDCMP
+#
+#End Doc Library

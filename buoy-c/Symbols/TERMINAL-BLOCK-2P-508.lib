@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TERM-BLK-2P
+#
+DEF TERM-BLK-2P J 0 40 Y Y 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "TERM-BLK-2P" 50 200 50 H V C CNN
+F2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" 1650 150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Digi-Key" 900 50 50 H I C CNN "Supplier 1"
+F5 "ED2609-ND" 1400 50 50 H I C CNN "Supplier Part Number 1"
+F6 "On Shore Technology Inc." 1200 -50 50 H I C CNN "Manufacturer"
+F7 "OSTTC022162" 2050 -50 50 H I C CNN
+DRAW
+P 5 1 1 6 200 100 600 100 600 -300 200 -300 200 100 f
+X - 1 0 -200 200 R 50 50 1 1 P
+X + 2 0 0 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

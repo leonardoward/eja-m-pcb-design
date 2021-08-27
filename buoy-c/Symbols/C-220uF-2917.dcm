@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 220uF
+D 220 µF Molded Tantalum Capacitors 10 V 2917 (7343 Metric) 500mOhm @ 100kHz
+K CAP TANT 220UF 10% 10V 2917
+F https://suntsu.com/wp-content/uploads/2020/10/NEMCO_PCT-Series_10.19.2020.pdf
+$ENDCMP
+#
+#End Doc Library

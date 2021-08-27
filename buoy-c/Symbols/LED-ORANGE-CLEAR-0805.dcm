@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ORANGE-CLEAR
+D Orange 601nm LED Indication - Discrete 2.1V 0805 (2012 Metric)
+K LED ORANGE CLEAR 0805 SMD
+F https://www.sunledusa.com/products/spec/XZMOK54W-1.pdf
+$ENDCMP
+#
+#End Doc Library

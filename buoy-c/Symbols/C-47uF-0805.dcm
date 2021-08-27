@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 47uF
+D 47 µF ±20% 6.3V X5R 0805 (2012 Metric) Ceramic Capacitor
+K CAP CER 47UF 6.3V X5R 0805
+F https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf
+$ENDCMP
+#
+#End Doc Library

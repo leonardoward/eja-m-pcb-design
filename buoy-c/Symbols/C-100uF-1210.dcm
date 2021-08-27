@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100uF
+D 100 µF ±20% 6.3V Ceramic Capacitor X7U 1210 (3225 Metric)
+K CAP CER 100UF 6.3V X7U 1210
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32EE70J107ME15-01.pdf
+$ENDCMP
+#
+#End Doc Library

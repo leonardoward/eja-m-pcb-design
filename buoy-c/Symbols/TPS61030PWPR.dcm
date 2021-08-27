@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS61030PWPR
+D Boost Switching Regulator IC Positive Adjustable 1.8V 1 Output 3.6A (Switch) 16-PowerTSSOP (0.173", 4.40mm Width)
+K IC REG BOOST ADJ 3.6A 16HTSSOP
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61030
+$ENDCMP
+#
+#End Doc Library

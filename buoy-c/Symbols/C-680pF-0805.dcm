@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 680pF
+D 680 pF ±10% 25V X7R 0805 (2012 Metric) Ceramic Capacitor 
+K CAP CER 680PF 25V X7R 0805
+F https://www.we-online.de/katalog/datasheet/885012207059.pdf
+$ENDCMP
+#
+#End Doc Library

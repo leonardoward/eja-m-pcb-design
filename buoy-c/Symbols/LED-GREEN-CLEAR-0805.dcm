@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GREEN-CLEAR
+D Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)
+K LED GREEN CLEAR 0805 SMD
+F https://www.we-online.de/katalog/datasheet/150080VS75000.pdf
+$ENDCMP
+#
+#End Doc Library

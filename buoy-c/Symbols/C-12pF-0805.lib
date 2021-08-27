@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 12pF
+#
+DEF 12pF C 0 40 N N 1 F N
+F0 "C" 150 200 50 H V C CNN
+F1 "12pF" 200 100 50 H V C CNN
+F2 "Capacitor_SMD:C_0805_2012Metric" 1150 250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Stackpole Electronics Inc" 1000 150 50 H I C CNN "Manufacturer"
+F5 "CML0805C0G120JT50V" 2000 150 50 H I C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 650 50 50 H I C CNN "Supplier 1"
+F7 "738-CML0805C0G120JT50VCT-ND" 1550 50 50 H I C CNN "Supplier Part Number 1"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

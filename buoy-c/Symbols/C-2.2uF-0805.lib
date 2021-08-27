@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 2.2uF
+#
+DEF 2.2uF C 0 40 N N 1 F N
+F0 "C" 150 150 50 H V C CNN
+F1 "2.2uF" 250 50 50 H V C CNN
+F2 "Capacitor_SMD:C_0805_2012Metric" 1050 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Samsung Electro-Mechanics" 950 100 50 H I C CNN "Manufacturer"
+F5 "CL21B225KPFNNNE" 1950 100 50 H I C CNN "Manufacturer Part Number"
+F6 "Digi-Key" 600 0 50 H I C CNN "Supplier 1"
+F7 "1276-1188-1-ND" 1200 0 50 H I C CNN "Supplier Part Number 1"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name L-10.5x10.2x5)(type KiCad)(uri ${KIPRJMOD}/Footprints/L-10.5x10.2x5.pretty)(options "")(descr ""))
+  (lib (name C-2917-7343-Metric)(type KiCad)(uri ${KIPRJMOD}/Footprints/C-2917-7343-Metric.pretty)(options "")(descr ""))
+  (lib (name L-11.5x10.3x4)(type KiCad)(uri ${KIPRJMOD}/Footprints/L-11.5x10.3x4.pretty)(options "")(descr ""))
+  (lib (name ADXL343-EVAL)(type KiCad)(uri ${KIPRJMOD}/Footprints/ADXL343-EVAL.pretty)(options "")(descr ""))
+  (lib (name ESP32-WROOM-32D)(type KiCad)(uri ${KIPRJMOD}/Footprints/ESP32-WROOM-32D.pretty)(options "")(descr ""))
+  (lib (name UJ31CHG2SMTTR)(type KiCad)(uri ${KIPRJMOD}/Footprints/UJ31CHG2SMTTR.pretty)(options "")(descr ""))
+  (lib (name ESOP-8)(type KiCad)(uri ${KIPRJMOD}/Footprints/ESOP-8.pretty)(options "")(descr ""))
+)

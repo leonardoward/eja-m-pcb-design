@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 5.5uH
+#
+DEF 5.5uH L 0 30 N N 1 F N
+F0 "L" 100 450 50 H V L CNN
+F1 "5.5uH" 100 350 50 H V L CNN
+F2 "L-10.5x10.2x5:L-10.5x10.2x5" 100 250 50 H I L CNN
+F3 "" 100 150 50 H I L CNN
+F4 "Inductor SMD high current WE-HCI 5.5uH Wurth WE-HCI Series Shielded Wire-wound SMD Inductor with a WE-Superflux Core, 5.5 ??H ??20% 12A Idc" 100 50 50 H I L CNN "Description"
+F5 "5" 100 -50 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 100 -150 50 H I L CNN "Manufacturer"
+F7 "744325550" 100 -250 50 H I L CNN "Manufacturer Part Number"
+F8 "Digi-Key" 100 -550 50 H I L CNN "Supplier 1"
+F9 "732-1171-1-ND" 100 -650 50 H I L CNN "Supplier Part Number 1"
+F10 "Mouser" 100 -450 50 H I L CNN "Supplier 2"
+F11 "710-744325550" 100 -350 50 H I L CNN "Supplier Part Number 2"
+DRAW
+A 0 -75 25 -899 899 1 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 1 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 1 1 0 N 0 0 0 50
+A 0 75 25 -899 899 1 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

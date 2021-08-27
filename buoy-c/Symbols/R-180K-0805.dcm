@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 180K
+D 180 kOhms ±0.5% 0.1W 0805 (2012 Metric) - Chip Resistor Thin Film
+K RES SMD 180K OHM 0.5% 1/10W 0805
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+#End Doc Library

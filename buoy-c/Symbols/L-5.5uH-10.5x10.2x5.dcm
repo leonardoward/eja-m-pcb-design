@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5.5uH
+D 5.5 µH Shielded Wirewound Inductor 10 A 10.3mOhm 10.5x10.2x5
+K FIXED IND 5.5UH 10A 10.3MOHM 10.5x10.2x5 SMD
+F http://katalog.we-online.de/pbs/datasheet/744325550.pdf
+$ENDCMP
+#
+#End Doc Library

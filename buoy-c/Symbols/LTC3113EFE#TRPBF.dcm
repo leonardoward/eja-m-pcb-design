@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC3113EFE#TRPBF
+D Buck-Boost Switching Regulator IC Positive Adjustable 1.8V 1 Output 3A 20-TSSOP (0.173", 4.40mm Width) Exposed Pad
+K IC REG BCK BST ADJ 3A 20TSSOP
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3113f.pdf
+$ENDCMP
+#
+#End Doc Library

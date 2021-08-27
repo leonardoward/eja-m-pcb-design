@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 182K
+D 182 kOhms ±1% 0.25W 0805 (2012 Metric) Chip Resistor Automotive AEC-Q200, Moisture Resistant Thick Film
+K RES 182K OHM 1% 1/4W 0805
+F https://www.koaspeer.com/pdfs/RK73H.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 12pF
+D 12 pF ±5% 50V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)
+K CAP CER 12PF 50V C0G/NP0 0805
+F http://www.seielect.com/Catalog/SEI-CML.PDF
+$ENDCMP
+#
+#End Doc Library
