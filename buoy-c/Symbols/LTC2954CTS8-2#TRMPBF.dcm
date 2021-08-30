@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC2954CTS8-2#TRMPBF
+D IC PB ON/OFF CONTROLLER TSOT23-8
+K IC PB ON/OFF CONTROLLER TSOT23-8
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2954fb.pdf
+$ENDCMP
+#
+#End Doc Library

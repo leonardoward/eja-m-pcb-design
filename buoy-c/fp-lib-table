@@ -6,4 +6,7 @@
   (lib (name ESP32-WROOM-32D)(type KiCad)(uri ${KIPRJMOD}/Footprints/ESP32-WROOM-32D.pretty)(options "")(descr ""))
   (lib (name UJ31CHG2SMTTR)(type KiCad)(uri ${KIPRJMOD}/Footprints/UJ31CHG2SMTTR.pretty)(options "")(descr ""))
   (lib (name ESOP-8)(type KiCad)(uri ${KIPRJMOD}/Footprints/ESOP-8.pretty)(options "")(descr ""))
+  (lib (name ATGM332D-5N31)(type KiCad)(uri ${KIPRJMOD}/Footprints/ATGM332D-5N31.pretty)(options "")(descr ""))
+  (lib (name BAT-HLD-001-THM)(type KiCad)(uri ${KIPRJMOD}/Footprints/BAT-HLD-001-THM.pretty)(options "")(descr ""))
+  (lib (name "U.FL-R-SMT-1(10)")(type KiCad)(uri "${KIPRJMOD}/Footprints/U.FL-R-SMT-1(10).pretty")(options "")(descr ""))
 )

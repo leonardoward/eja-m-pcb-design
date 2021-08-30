@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BLUE-CLEAR
+D Blue 470nm LED Indication - Discrete 3.2V 0805 (2012 Metric)
+K LED BLUE CLEAR 0805 SMD
+F https://www.we-online.de/katalog/datasheet/150080BS75000.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 33nF
+D ±10% 50V X7R 0805 (2012 Metric) Ceramic Capacitor 
+K CAP CER 0.033UF 50V X7R 0805
+F https://www.we-online.de/katalog/datasheet/885012207095.pdf
+$ENDCMP
+#
+#End Doc Library
