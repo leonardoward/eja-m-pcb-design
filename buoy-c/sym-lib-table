@@ -55,4 +55,5 @@
   (lib (name C-33nF-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/C-33nF-0805.lib)(options "")(descr ""))
   (lib (name LED-BLUE-CLEAR-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/LED-BLUE-CLEAR-0805.lib)(options "")(descr ""))
   (lib (name LED-YELLOW-CLEAR-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/LED-YELLOW-CLEAR-0805.lib)(options "")(descr ""))
+  (lib (name R-0-0805)(type Legacy)(uri ${KIPRJMOD}/Symbols/R-0-0805.lib)(options "")(descr ""))
 )

@@ -1326,8 +1326,6 @@ F 3 "" H 5850 7700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 7700 5850 7650
-Wire Wire Line
 	5850 7450 5850 7300
 Wire Wire Line
 	5850 7300 4950 7300
@@ -1347,21 +1345,6 @@ F 7 "BH-18650-PC" H 5600 7050 50  0001 L CNN "Manufacturer_Part_Number"
 F 8 "Digi-Key" H 5600 6950 50  0001 L CNN "Supplier 1"
 F 9 "BH-18650-PC-ND" H 5600 6850 50  0001 L CNN "Supplier Part Number 1"
 	1    4950 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L TERMINAL-BLOCK-2P-508:TERM-BLK-2P J7
-U 1 1 612BDDBE
-P 5850 7450
-F 0 "J7" H 6200 7650 50  0000 L CNN
-F 1 "TERM-BLK-2P" H 5950 7100 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7500 7600 50  0001 C CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 5850 7450 50  0001 C CNN
-F 4 "Digi-Key" H 6750 7500 50  0001 C CNN "Supplier 1"
-F 5 "ED2609-ND" H 7250 7500 50  0001 C CNN "Supplier Part Number 1"
-F 6 "On Shore Technology Inc." H 7050 7400 50  0001 C CNN "Manufacturer"
-F 7 "OSTTC022162" H 7900 7400 50  0001 C CNN "Field7"
-	1    5850 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1550,30 +1533,6 @@ Connection ~ 7800 5100
 Wire Wire Line
 	8250 5200 7200 5200
 Connection ~ 8250 5200
-$Comp
-L power:+BATT #PWR0129
-U 1 1 6144CF8E
-P 7800 4750
-F 0 "#PWR0129" H 7800 4600 50  0001 C CNN
-F 1 "+BATT" H 7815 4923 50  0000 C CNN
-F 2 "" H 7800 4750 50  0001 C CNN
-F 3 "" H 7800 4750 50  0001 C CNN
-	1    7800 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+BATT #PWR0130
-U 1 1 6144EEF4
-P 8250 4850
-F 0 "#PWR0130" H 8250 4700 50  0001 C CNN
-F 1 "+BATT" H 8265 5023 50  0000 C CNN
-F 2 "" H 8250 4850 50  0001 C CNN
-F 3 "" H 8250 4850 50  0001 C CNN
-	1    8250 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 4850 8250 4900
 Wire Wire Line
 	7800 4750 7800 4800
 Text GLabel 7250 5400 2    50   Output ~ 0
@@ -1647,37 +1606,22 @@ F 3 "" H 7400 7150 50  0001 C CNN
 	1    7400 7150
 	1    0    0    -1  
 $EndComp
-$Comp
-L TERMINAL-BLOCK-2P-508:TERM-BLK-2P J3
-U 1 1 61366C35
-P 1800 7100
-F 0 "J3" H 2150 7300 50  0000 L CNN
-F 1 "TERM-BLK-2P" H 1900 6750 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3450 7250 50  0001 C CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 1800 7100 50  0001 C CNN
-F 4 "Digi-Key" H 2700 7150 50  0001 C CNN "Supplier 1"
-F 5 "ED2609-ND" H 3200 7150 50  0001 C CNN "Supplier Part Number 1"
-F 6 "On Shore Technology Inc." H 3000 7050 50  0001 C CNN "Manufacturer"
-F 7 "OSTTC022162" H 3850 7050 50  0001 C CNN "Field7"
-	1    1800 7100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 7100 2100 7100
 Connection ~ 2100 7100
 $Comp
 L power:GND #PWR0133
 U 1 1 6138F208
-P 1800 7400
-F 0 "#PWR0133" H 1800 7150 50  0001 C CNN
-F 1 "GND" H 1805 7227 50  0000 C CNN
-F 2 "" H 1800 7400 50  0001 C CNN
-F 3 "" H 1800 7400 50  0001 C CNN
-	1    1800 7400
+P 1800 7300
+F 0 "#PWR0133" H 1800 7050 50  0001 C CNN
+F 1 "GND" H 1805 7127 50  0000 C CNN
+F 2 "" H 1800 7300 50  0001 C CNN
+F 3 "" H 1800 7300 50  0001 C CNN
+	1    1800 7300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 7400 1800 7300
+	1800 7300 1800 7200
 Wire Notes Line style solid
 	4650 6550 950  6550
 Wire Notes Line style solid
@@ -1758,27 +1702,23 @@ $EndComp
 $Comp
 L power:+BATT #PWR0134
 U 1 1 616C8CB2
-P 4700 8800
-F 0 "#PWR0134" H 4700 8650 50  0001 C CNN
-F 1 "+BATT" H 4715 8973 50  0000 C CNN
-F 2 "" H 4700 8800 50  0001 C CNN
-F 3 "" H 4700 8800 50  0001 C CNN
-	1    4700 8800
+P 6050 8950
+F 0 "#PWR0134" H 6050 8800 50  0001 C CNN
+F 1 "+BATT" H 6065 9123 50  0000 C CNN
+F 2 "" H 6050 8950 50  0001 C CNN
+F 3 "" H 6050 8950 50  0001 C CNN
+	1    6050 8950
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	5150 8700 5500 8700
-Text Notes 5550 8850 0    50   ~ 0
-BATT
 $Comp
 L power:VDD #PWR0135
 U 1 1 6171CAF7
-P 4500 8900
-F 0 "#PWR0135" H 4500 8750 50  0001 C CNN
-F 1 "VDD" H 4515 9073 50  0000 C CNN
-F 2 "" H 4500 8900 50  0001 C CNN
-F 3 "" H 4500 8900 50  0001 C CNN
-	1    4500 8900
+P 5600 8950
+F 0 "#PWR0135" H 5600 8800 50  0001 C CNN
+F 1 "VDD" H 5615 9123 50  0000 C CNN
+F 2 "" H 5600 8950 50  0001 C CNN
+F 3 "" H 5600 8950 50  0001 C CNN
+	1    5600 8950
 	1    0    0    -1  
 $EndComp
 Text Notes 5150 8650 0    50   ~ 0
@@ -1824,10 +1764,6 @@ Text GLabel 10350 1000 0    50   Input ~ 0
 3V3_FTDI
 Wire Notes Line style solid
 	950  8350 6450 8350
-Wire Wire Line
-	4500 8900 5200 8900
-Wire Wire Line
-	4700 8800 5200 8800
 Wire Wire Line
 	3000 8700 2600 8700
 Wire Notes Line style solid
@@ -1881,33 +1817,12 @@ F 7 "RMCF0805FT1M00CT-ND" H 2750 9550 50  0001 C CNN "Supplier Part Number 1"
 	1    1550 9500
 	1    0    0    -1  
 $EndComp
-Text Notes 5100 9400 0    50   ~ 0
-2-3 Connects VDD to the Battery\n2-1 Connects VDD to 3V3
-Text Notes 5550 8950 0    50   ~ 0
-VDD
+Text Notes 5050 9650 0    50   ~ 0
+Solder R32 to connect VDD to 3V3\nSolder R33 to connect VDD to BATT\nDO NOT SOLDER R32 AND R33\nIT WILL CREATE A SHORT CIRCUIT\nBETWEEN BATT AND 3V3
 Connection ~ 3700 9000
-Text Notes 5550 9050 0    50   ~ 0
-3V3
-Wire Notes Line
-	5150 9100 5150 8700
-Wire Notes Line
-	5500 9100 5150 9100
-Wire Notes Line
-	5500 8700 5500 9100
 Connection ~ 4750 9000
 Wire Wire Line
 	4750 9000 5200 9000
-$Comp
-L Connector:Conn_01x03_Male J6
-U 1 1 616ABC60
-P 5400 8900
-F 0 "J6" H 5750 8650 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 5650 9150 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5400 8900 50  0001 C CNN
-F 3 "~" H 5400 8900 50  0001 C CNN
-	1    5400 8900
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:+3V3 #PWR0140
 U 1 1 6167EDFC
@@ -2878,62 +2793,26 @@ Wire Notes Line style solid
 	9400 9000 8250 9000
 Text Notes 8800 9400 0    100  ~ 20
 BATT\nLEVEL
-$Comp
-L ADXL343-EVAL:ADXL343-EVAL U9
-U 1 1 61D5B703
-P 10550 9800
-F 0 "U9" H 10600 10315 50  0000 C CNN
-F 1 "ADXL343-EVAL" H 10600 10224 50  0000 C CNN
-F 2 "ADXL343-EVAL:ADXL343-EVAL" H 12000 10150 50  0001 C CNN
-F 3 "https://cdn-learn.adafruit.com/downloads/pdf/adxl343-breakout-learning-guide.pdf" H 10550 9650 50  0001 C CNN
-F 4 "Adafruit Industries LLC" H 11850 10050 50  0001 C CNN "Manufacturer"
-F 5 "4097" H 12450 10050 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 11600 9950 50  0001 C CNN "Supplier 1"
-F 7 "1528-2874-ND" H 12200 9950 50  0001 C CNN "Supplier Part Number 1"
-	1    10550 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR0162
-U 1 1 61D5D079
-P 10100 9500
-F 0 "#PWR0162" H 10100 9350 50  0001 C CNN
-F 1 "VDD" H 10115 9673 50  0000 C CNN
-F 2 "" H 10100 9500 50  0001 C CNN
-F 3 "" H 10100 9500 50  0001 C CNN
-	1    10100 9500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 9500 10100 9550
-Wire Wire Line
-	10100 9550 10150 9550
-NoConn ~ 11050 9550
-NoConn ~ 11050 9650
-NoConn ~ 11050 9750
-NoConn ~ 10150 9850
-NoConn ~ 10150 9950
+NoConn ~ 10300 9650
+NoConn ~ 10300 10250
+NoConn ~ 10300 10350
+NoConn ~ 10300 10050
+NoConn ~ 10300 10150
 $Comp
 L power:GND #PWR0163
 U 1 1 61E1DC37
-P 10100 10050
-F 0 "#PWR0163" H 10100 9800 50  0001 C CNN
-F 1 "GND" H 10105 9877 50  0000 C CNN
-F 2 "" H 10100 10050 50  0001 C CNN
-F 3 "" H 10100 10050 50  0001 C CNN
-	1    10100 10050
+P 10000 9800
+F 0 "#PWR0163" H 10000 9550 50  0001 C CNN
+F 1 "GND" H 10005 9627 50  0000 C CNN
+F 2 "" H 10000 9800 50  0001 C CNN
+F 3 "" H 10000 9800 50  0001 C CNN
+	1    10000 9800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10100 10050 10150 10050
-Text GLabel 10100 9750 0    50   BiDi ~ 0
+Text GLabel 10300 9950 0    50   BiDi ~ 0
 SDA
-Text GLabel 10100 9650 0    50   BiDi ~ 0
+Text GLabel 10300 9850 0    50   BiDi ~ 0
 SCL
-Wire Wire Line
-	10100 9650 10150 9650
-Wire Wire Line
-	10100 9750 10150 9750
 Wire Notes Line style solid
 	9550 9000 9550 10400
 Wire Notes Line style solid
@@ -3264,21 +3143,6 @@ F 7 "311-620ARCT-ND" H 13250 7150 50  0001 C CNN "Supplier Part Number 1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TERMINAL-BLOCK-2P-508:TERM-BLK-2P J12
-U 1 1 617A24D3
-P 12550 7350
-F 0 "J12" H 12900 7550 50  0000 L CNN
-F 1 "TERM-BLK-2P" H 12650 7000 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 14200 7500 50  0001 C CNN
-F 3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" H 12550 7350 50  0001 C CNN
-F 4 "Digi-Key" H 13450 7400 50  0001 C CNN "Supplier 1"
-F 5 "ED2609-ND" H 13950 7400 50  0001 C CNN "Supplier Part Number 1"
-F 6 "On Shore Technology Inc." H 13750 7300 50  0001 C CNN "Manufacturer"
-F 7 "OSTTC022162" H 14600 7300 50  0001 C CNN "Field7"
-	1    12550 7350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VDD #PWR0172
 U 1 1 617A4D45
 P 11850 6950
@@ -3303,27 +3167,7 @@ $EndComp
 Wire Wire Line
 	11850 6950 11850 7000
 Wire Wire Line
-	11850 7300 11850 7350
-Wire Wire Line
-	12550 7350 11850 7350
-Connection ~ 11850 7350
-Wire Wire Line
-	11850 7350 11850 7400
-Wire Wire Line
 	11850 7700 11850 7750
-$Comp
-L power:GND #PWR0174
-U 1 1 6183DE36
-P 12550 7700
-F 0 "#PWR0174" H 12550 7450 50  0001 C CNN
-F 1 "GND" H 12555 7527 50  0000 C CNN
-F 2 "" H 12550 7700 50  0001 C CNN
-F 3 "" H 12550 7700 50  0001 C CNN
-	1    12550 7700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12550 7700 12550 7550
 Text Notes 13200 6950 2    100  ~ 20
 ON/OFF LED
 Wire Notes Line style solid
@@ -3388,346 +3232,98 @@ Wire Wire Line
 	8400 2350 8400 2400
 Wire Wire Line
 	8400 2700 8400 2750
-Text GLabel 14400 5300 2    50   Output ~ 0
-ESP_IO36
-Text GLabel 14400 5400 2    50   Output ~ 0
-ESP_IO39
-Text GLabel 14400 5500 2    50   Output ~ 0
-ESP_IO35
-$Comp
-L power:GND #PWR0176
-U 1 1 61994B63
-P 14400 5700
-F 0 "#PWR0176" H 14400 5450 50  0001 C CNN
-F 1 "GND" H 14405 5527 50  0000 C CNN
-F 2 "" H 14400 5700 50  0001 C CNN
-F 3 "" H 14400 5700 50  0001 C CNN
-	1    14400 5700
-	1    0    0    -1  
-$EndComp
-Text GLabel 5750 4100 0    50   Input ~ 0
-ESP_IO36
-Text GLabel 5750 4200 0    50   Input ~ 0
-ESP_IO39
-Text GLabel 7250 6000 2    50   Input ~ 0
-ESP_IO35
-Wire Wire Line
-	5750 4100 5800 4100
-Wire Wire Line
-	5800 4200 5750 4200
-Wire Wire Line
-	7250 6000 7200 6000
-Wire Wire Line
-	14250 5300 14400 5300
-Wire Wire Line
-	14250 5400 14400 5400
-Wire Wire Line
-	14250 5500 14400 5500
-Wire Wire Line
-	14250 5600 14400 5600
 $Comp
 L power:GND #PWR0177
 U 1 1 61AB895F
-P 13900 3950
-F 0 "#PWR0177" H 13900 3700 50  0001 C CNN
-F 1 "GND" H 13905 3777 50  0000 C CNN
-F 2 "" H 13900 3950 50  0001 C CNN
-F 3 "" H 13900 3950 50  0001 C CNN
-	1    13900 3950
+P 13900 4350
+F 0 "#PWR0177" H 13900 4100 50  0001 C CNN
+F 1 "GND" H 13905 4177 50  0000 C CNN
+F 2 "" H 13900 4350 50  0001 C CNN
+F 3 "" H 13900 4350 50  0001 C CNN
+	1    13900 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13900 3950 13900 3900
+	13900 4350 13900 4300
 Text GLabel 5750 4700 0    50   BiDi ~ 0
 ESP_IO6
 Text GLabel 5750 4800 0    50   BiDi ~ 0
 ESP_IO7
 Text GLabel 5750 4900 0    50   BiDi ~ 0
 ESP_IO8
-Text GLabel 5750 5000 0    50   BiDi ~ 0
-ESP_IO9
-Text GLabel 5750 5100 0    50   BiDi ~ 0
-ESP_IO10
-Text GLabel 5750 5200 0    50   BiDi ~ 0
-ESP_IO11
 Wire Wire Line
 	5750 4700 5800 4700
 Wire Wire Line
 	5750 4800 5800 4800
 Wire Wire Line
 	5750 4900 5800 4900
-Wire Wire Line
-	5750 5000 5800 5000
-Wire Wire Line
-	5800 5100 5750 5100
-Wire Wire Line
-	5750 5200 5800 5200
 Text GLabel 13350 4400 2    50   BiDi ~ 0
 ESP_IO6
 Text GLabel 13350 4500 2    50   BiDi ~ 0
 ESP_IO7
 Text GLabel 13350 4600 2    50   BiDi ~ 0
 ESP_IO8
-Text GLabel 13350 4100 2    50   BiDi ~ 0
-ESP_IO9
-Text GLabel 13350 4200 2    50   BiDi ~ 0
-ESP_IO10
-Text GLabel 13350 4300 2    50   BiDi ~ 0
-ESP_IO11
 Text GLabel 7250 4000 2    50   BiDi ~ 0
 ESP_IO2
 Text GLabel 13350 4800 2    50   BiDi ~ 0
 ESP_IO2
-Text GLabel 7250 4300 2    50   BiDi ~ 0
-ESP_IO12
-Text GLabel 7250 4400 2    50   BiDi ~ 0
-ESP_IO13
 Text GLabel 7250 4600 2    50   BiDi ~ 0
 ESP_IO15
 Wire Wire Line
-	7200 4300 7250 4300
-Wire Wire Line
-	7200 4400 7250 4400
-Wire Wire Line
 	7200 4600 7250 4600
-Text GLabel 14400 5600 2    50   BiDi ~ 0
-ESP_IO12
-Text GLabel 13350 4000 2    50   BiDi ~ 0
-ESP_IO13
 Text GLabel 13350 4700 2    50   BiDi ~ 0
 ESP_IO15
 Wire Wire Line
 	7200 4000 7250 4000
 $Comp
-L Connector:Conn_01x05_Male J13
-U 1 1 61D75668
-P 14050 5500
-F 0 "J13" H 14100 5100 50  0000 R CNN
-F 1 "Conn_01x05_Male" H 14400 5200 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 14050 5500 50  0001 C CNN
-F 3 "~" H 14050 5500 50  0001 C CNN
-	1    14050 5500
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	14400 5700 14250 5700
-$Comp
-L Connector:Conn_01x10_Male J10
-U 1 1 61ED5311
-P 11900 4300
-F 0 "J10" H 12008 4881 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 12008 4790 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 11900 4300 50  0001 C CNN
-F 3 "~" H 11900 4300 50  0001 C CNN
-	1    11900 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R-620-0805:620 R32
-U 1 1 61F8533F
-P 12800 4950
-F 0 "R32" V 12700 4950 50  0000 C CNN
-F 1 "620" V 12900 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 13900 5150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 12800 4950 50  0001 C CNN
-F 4 "Yageo" H 13600 5050 50  0001 C CNN "Manufacturer"
-F 5 "RC0805JR-07620RL" H 14200 5050 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 13600 4950 50  0001 C CNN "Supplier 1"
-F 7 "311-620ARCT-ND" H 14200 4950 50  0001 C CNN "Supplier Part Number 1"
-	1    12800 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L R-620-0805:620 R33
-U 1 1 61F8866F
-P 12800 5250
-F 0 "R33" V 12700 5250 50  0000 C CNN
-F 1 "620" V 12900 5250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 13900 5450 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 12800 5250 50  0001 C CNN
-F 4 "Yageo" H 13600 5350 50  0001 C CNN "Manufacturer"
-F 5 "RC0805JR-07620RL" H 14200 5350 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 13600 5250 50  0001 C CNN "Supplier 1"
-F 7 "311-620ARCT-ND" H 14200 5250 50  0001 C CNN "Supplier Part Number 1"
-	1    12800 5250
-	0    1    1    0   
-$EndComp
-$Comp
 L R-620-0805:620 R34
 U 1 1 61F88A4C
-P 12800 5550
-F 0 "R34" V 12700 5550 50  0000 C CNN
-F 1 "620" V 12900 5550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 13900 5750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 12800 5550 50  0001 C CNN
-F 4 "Yageo" H 13600 5650 50  0001 C CNN "Manufacturer"
-F 5 "RC0805JR-07620RL" H 14200 5650 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 13600 5550 50  0001 C CNN "Supplier 1"
-F 7 "311-620ARCT-ND" H 14200 5550 50  0001 C CNN "Supplier Part Number 1"
-	1    12800 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L R-620-0805:620 R35
-U 1 1 61F88DF2
-P 12800 5850
-F 0 "R35" V 12700 5850 50  0000 C CNN
-F 1 "620" V 12900 5850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 13900 6050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 12800 5850 50  0001 C CNN
-F 4 "Yageo" H 13600 5950 50  0001 C CNN "Manufacturer"
-F 5 "RC0805JR-07620RL" H 14200 5950 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 13600 5850 50  0001 C CNN "Supplier 1"
-F 7 "311-620ARCT-ND" H 14200 5850 50  0001 C CNN "Supplier Part Number 1"
-	1    12800 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L LED-GREEN-CLEAR-0805:GREEN-CLEAR D6
-U 1 1 61FB583E
-P 12400 4950
-F 0 "D6" H 12400 5050 50  0000 C CNN
-F 1 "GREEN-CLEAR" H 12400 4800 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 13350 4850 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 12400 4950 50  0001 C CNN
-F 4 "Digi-Key" H 12950 4750 50  0001 C CNN "Supplier 1"
-F 5 "732-4983-1-ND" H 13650 4750 50  0001 C CNN "Supplier Part Number 1"
-F 6 "Würth Elektronik" H 13100 4650 50  0001 C CNN "Manufacturer"
-F 7 "150080VS75000" H 13800 4650 50  0001 C CNN "Manufacturer Part Number"
-	1    12400 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED-ORANGE-CLEAR-0805:ORANGE-CLEAR D7
-U 1 1 61FB9625
-P 12400 5250
-F 0 "D7" H 12400 5350 50  0000 C CNN
-F 1 "ORANGE-CLEAR" H 12400 5100 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 13400 5350 50  0001 C CNN
-F 3 "https://www.sunledusa.com/products/spec/XZMOK54W-1.pdf" H 12400 5250 50  0001 C CNN
-F 4 "Digi-Key" H 13000 5250 50  0001 C CNN "Supplier 1"
-F 5 "1497-1188-1-ND" H 13650 5250 50  0001 C CNN "Supplier Part Number 1"
-F 6 "SunLED" H 12950 5150 50  0001 C CNN "Manufacturer"
-F 7 "XZMOK54W-1" H 13500 5150 50  0001 C CNN "Manufacturer Part Number"
-	1    12400 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED-RED-CLEAR-0805:RED-CLEAR D9
-U 1 1 61FBA7BC
-P 12400 5850
-F 0 "D9" H 12400 5950 50  0000 C CNN
-F 1 "RED-CLEAR" H 12400 5700 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 12450 5350 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080SS75000.pdf" H 12400 5850 50  0001 C CNN
-F 4 "Digi-Key" H 12250 5450 50  0001 C CNN "Supplier 1"
-F 5 "732-4985-1-ND" H 12800 5450 50  0001 C CNN "Supplier Part Number 1"
-F 6 "Würth Elektronik" H 12150 5550 50  0001 C CNN "Manufacturer"
-F 7 "150080SS75000" H 12800 5550 50  0001 C CNN "Manufacturer Part Number"
-	1    12400 5850
+P 12300 5050
+F 0 "R34" V 12200 5050 50  0000 C CNN
+F 1 "620" V 12400 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 13400 5250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 12300 5050 50  0001 C CNN
+F 4 "Yageo" H 13100 5150 50  0001 C CNN "Manufacturer"
+F 5 "RC0805JR-07620RL" H 13700 5150 50  0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 13100 5050 50  0001 C CNN "Supplier 1"
+F 7 "311-620ARCT-ND" H 13700 5050 50  0001 C CNN "Supplier Part Number 1"
+	1    12300 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED-YELLOW-CLEAR-0805:YELLOW-CLEAR D8
 U 1 1 61FF4D7A
-P 12400 5550
-F 0 "D8" H 12400 5650 50  0000 C CNN
-F 1 "YELLOW-CLEAR" H 12400 5400 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 13650 5800 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Everlight%20PDFs/qtlp630c-2.pdf" H 12400 5550 50  0001 C CNN
-F 4 "Everlight Electronics Co Ltd" H 13350 5700 50  0001 C CNN "Manufacturer"
-F 5 "QTLP630C3TR" H 14250 5700 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 13000 5600 50  0001 C CNN "Supplier 1"
-F 7 "1080-1410-1-ND" H 13650 5600 50  0001 C CNN "Supplier Part Number 1"
-	1    12400 5550
-	1    0    0    -1  
+P 12300 5450
+F 0 "D8" H 12300 5550 50  0000 C CNN
+F 1 "YELLOW-CLEAR" H 12300 5300 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 13550 5700 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Everlight%20PDFs/qtlp630c-2.pdf" H 12300 5450 50  0001 C CNN
+F 4 "Everlight Electronics Co Ltd" H 13250 5600 50  0001 C CNN "Manufacturer"
+F 5 "QTLP630C3TR" H 14150 5600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 12900 5500 50  0001 C CNN "Supplier 1"
+F 7 "1080-1410-1-ND" H 13550 5500 50  0001 C CNN "Supplier Part Number 1"
+	1    12300 5450
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	12950 4950 13000 4950
+	12300 5200 12300 5300
 Wire Wire Line
-	13000 4950 13000 4000
-Wire Wire Line
-	13000 4000 12100 4000
-Wire Wire Line
-	12950 5250 13050 5250
-Wire Wire Line
-	13050 5250 13050 4400
-Wire Wire Line
-	13050 4400 12100 4400
-Wire Wire Line
-	12950 5550 13100 5550
-Wire Wire Line
-	13100 5550 13100 4500
-Wire Wire Line
-	13100 4500 12100 4500
-Wire Wire Line
-	12950 5850 13150 5850
-Wire Wire Line
-	13150 5850 13150 4600
-Wire Wire Line
-	13150 4600 12100 4600
-Wire Wire Line
-	12650 4950 12550 4950
-Wire Wire Line
-	12650 5250 12550 5250
-Wire Wire Line
-	12650 5550 12550 5550
-Wire Wire Line
-	12650 5850 12550 5850
-Wire Wire Line
-	12100 3900 13900 3900
-Wire Wire Line
-	13350 4000 13000 4000
-Connection ~ 13000 4000
-Wire Wire Line
-	13350 4100 12100 4100
-Wire Wire Line
-	13350 4200 12100 4200
-Wire Wire Line
-	12100 4300 13350 4300
-Wire Wire Line
-	13350 4400 13050 4400
-Connection ~ 13050 4400
-Wire Wire Line
-	13350 4500 13100 4500
-Connection ~ 13100 4500
-Wire Wire Line
-	13350 4600 13150 4600
-Connection ~ 13150 4600
+	12100 4300 13900 4300
 Wire Wire Line
 	13350 4700 12100 4700
 Wire Wire Line
-	12100 4800 13350 4800
+	12100 4800 12300 4800
 $Comp
 L power:GND #PWR0178
 U 1 1 623D60DA
-P 12050 5900
-F 0 "#PWR0178" H 12050 5650 50  0001 C CNN
-F 1 "GND" H 12055 5727 50  0000 C CNN
-F 2 "" H 12050 5900 50  0001 C CNN
-F 3 "" H 12050 5900 50  0001 C CNN
-	1    12050 5900
+P 12300 5700
+F 0 "#PWR0178" H 12300 5450 50  0001 C CNN
+F 1 "GND" H 12305 5527 50  0000 C CNN
+F 2 "" H 12300 5700 50  0001 C CNN
+F 3 "" H 12300 5700 50  0001 C CNN
+	1    12300 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12050 5850 12050 5900
-Wire Wire Line
-	12250 5850 12050 5850
-Wire Wire Line
-	12250 5550 12050 5550
-Wire Wire Line
-	12050 5550 12050 5850
-Connection ~ 12050 5850
-Wire Wire Line
-	12250 5250 12050 5250
-Wire Wire Line
-	12050 5250 12050 5550
-Connection ~ 12050 5550
-Wire Wire Line
-	12250 4950 12050 4950
-Wire Wire Line
-	12050 4950 12050 5250
-Connection ~ 12050 5250
 Wire Notes Line
 	11550 3150 15600 3150
 Wire Notes Line
@@ -3738,10 +3334,169 @@ Wire Notes Line
 	11550 6500 11550 3150
 Text Notes 12550 3500 0    100  ~ 20
 EXTRA HEADERS AND LEDS
-Text Notes 15350 6050 2    50   ~ 0
-IO36, IO39 and IO35 are Only-Input Headers
 Text Label 10300 7150 0    50   ~ 0
 5V_STEPUP
 Text Label 5650 7300 0    50   ~ 0
 BATT
+$Comp
+L Connector:Conn_01x09_Male J14
+U 1 1 61305654
+P 10500 9950
+F 0 "J14" H 10600 9300 50  0000 R CNN
+F 1 "Conn_01x09_Male" H 10600 9400 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 10500 9950 50  0001 C CNN
+F 3 "~" H 10500 9950 50  0001 C CNN
+	1    10500 9950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VDD #PWR0162
+U 1 1 61D5D079
+P 10200 9500
+F 0 "#PWR0162" H 10200 9350 50  0001 C CNN
+F 1 "VDD" H 10215 9673 50  0000 C CNN
+F 2 "" H 10200 9500 50  0001 C CNN
+F 3 "" H 10200 9500 50  0001 C CNN
+	1    10200 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 9500 10200 9550
+Wire Wire Line
+	10200 9550 10300 9550
+Wire Wire Line
+	10000 9800 10000 9750
+Wire Wire Line
+	10000 9750 10300 9750
+Wire Wire Line
+	8250 4850 8250 4900
+$Comp
+L power:VDD #PWR0129
+U 1 1 615A088C
+P 7800 4750
+F 0 "#PWR0129" H 7800 4600 50  0001 C CNN
+F 1 "VDD" H 7815 4923 50  0000 C CNN
+F 2 "" H 7800 4750 50  0001 C CNN
+F 3 "" H 7800 4750 50  0001 C CNN
+	1    7800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0130
+U 1 1 615A101F
+P 8250 4850
+F 0 "#PWR0130" H 8250 4700 50  0001 C CNN
+F 1 "VDD" H 8265 5023 50  0000 C CNN
+F 2 "" H 8250 4850 50  0001 C CNN
+F 3 "" H 8250 4850 50  0001 C CNN
+	1    8250 4850
+	1    0    0    -1  
+$EndComp
+Text Label 2600 1750 0    50   ~ 0
+FB1
+Text Label 2600 1950 0    50   ~ 0
+FB2
+NoConn ~ 5800 4100
+NoConn ~ 5800 4200
+NoConn ~ 7200 4300
+NoConn ~ 7200 6000
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 613194A2
+P 1600 7200
+F 0 "J3" H 1650 6900 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1550 7000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1600 7200 50  0001 C CNN
+F 3 "~" H 1600 7200 50  0001 C CNN
+	1    1600 7200
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 6134AB1E
+P 6100 7550
+F 0 "J7" H 6200 7250 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 6300 7350 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6100 7550 50  0001 C CNN
+F 3 "~" H 6100 7550 50  0001 C CNN
+	1    6100 7550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 7450 5900 7450
+Wire Wire Line
+	5900 7550 5850 7550
+Wire Wire Line
+	5850 7550 5850 7700
+NoConn ~ 7200 4400
+NoConn ~ 5800 5000
+NoConn ~ 5800 5100
+NoConn ~ 5800 5200
+$Comp
+L Connector:Conn_01x06_Male J10
+U 1 1 6150B957
+P 11900 4500
+F 0 "J10" H 12008 4881 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 12008 4790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 11900 4500 50  0001 C CNN
+F 3 "~" H 11900 4500 50  0001 C CNN
+	1    11900 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 4600 13350 4600
+Wire Wire Line
+	12100 4500 13350 4500
+Wire Wire Line
+	12100 4400 13350 4400
+Wire Wire Line
+	12300 5600 12300 5700
+Wire Wire Line
+	12300 4900 12300 4800
+Connection ~ 12300 4800
+Wire Wire Line
+	12300 4800 13350 4800
+Wire Wire Line
+	11850 7300 11850 7400
+$Comp
+L R-0-0805:0 R32
+U 1 1 61774C6C
+P 5350 9000
+F 0 "R32" V 5143 9000 50  0000 C CNN
+F 1 "0" V 5234 9000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6250 8800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5350 9000 50  0001 C CNN
+F 4 "Digi-Key" H 5800 9000 50  0001 C CNN "Supplier 1"
+F 5 "311-0.0ARCT-ND" H 5950 8900 50  0001 C CNN "Supplier Part Number 1"
+F 6 "Yageo" H 5700 9250 50  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 5950 9150 50  0001 C CNN "Manufacturer Part Number"
+	1    5350 9000
+	0    1    1    0   
+$EndComp
+$Comp
+L R-0-0805:0 R33
+U 1 1 617769B4
+P 5850 9000
+F 0 "R33" V 5643 9000 50  0000 C CNN
+F 1 "0" V 5734 9000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6750 8800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5850 9000 50  0001 C CNN
+F 4 "Digi-Key" H 6300 9000 50  0001 C CNN "Supplier 1"
+F 5 "311-0.0ARCT-ND" H 6450 8900 50  0001 C CNN "Supplier Part Number 1"
+F 6 "Yageo" H 6200 9250 50  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 6450 9150 50  0001 C CNN "Manufacturer Part Number"
+	1    5850 9000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 9000 5600 9000
+Wire Wire Line
+	5600 8950 5600 9000
+Connection ~ 5600 9000
+Wire Wire Line
+	5600 9000 5500 9000
+Wire Wire Line
+	6050 8950 6050 9000
+Wire Wire Line
+	6050 9000 6000 9000
 $EndSCHEMATC
