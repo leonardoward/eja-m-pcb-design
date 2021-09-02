@@ -877,7 +877,7 @@ Wire Wire Line
 Text GLabel 9300 3650 0    50   Output ~ 0
 LORA_MISO
 Text GLabel 9300 3750 0    50   Input ~ 0
-LORA_MISO
+LORA_MOSI
 Text GLabel 9300 3850 0    50   Input ~ 0
 LORA_SCK
 Text GLabel 9300 3950 0    50   Input ~ 0
@@ -2669,14 +2669,8 @@ Wire Notes Line style solid
 	6600 9000 6600 9900
 Text Notes 7550 9250 0    100  ~ 20
 SERVO
-Wire Wire Line
-	7450 9450 7050 9450
-Text GLabel 7450 9450 2    50   Input ~ 0
+Text GLabel 7500 9350 2    50   Input ~ 0
 PWM_SERVO
-Wire Wire Line
-	7400 9350 7050 9350
-Wire Wire Line
-	7400 9250 7400 9350
 $Comp
 L power:+5V #PWR0158
 U 1 1 614310DF
@@ -3499,4 +3493,22 @@ Wire Wire Line
 	6050 8950 6050 9000
 Wire Wire Line
 	6050 9000 6000 9000
+NoConn ~ 3300 2150
+$Comp
+L power:GND #PWR0174
+U 1 1 6132AC93
+P 3800 7900
+F 0 "#PWR0174" H 3800 7650 50  0001 C CNN
+F 1 "GND" H 3805 7727 50  0000 C CNN
+F 2 "" H 3800 7900 50  0001 C CNN
+F 3 "" H 3800 7900 50  0001 C CNN
+	1    3800 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 9350 7050 9350
+Wire Wire Line
+	7400 9250 7400 9450
+Wire Wire Line
+	7400 9450 7050 9450
 $EndSCHEMATC
