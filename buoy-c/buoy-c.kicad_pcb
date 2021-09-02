@@ -18,7 +18,7 @@
 
   (layers
     (0 F.Cu signal)
-    (1 GND.Cu signal hide)
+    (1 GND.Cu signal)
     (2 Signal.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user hide)
@@ -5843,11 +5843,11 @@
   (via (at 116.3853 115.5548) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 133))
   (segment (start 116.3853 117.54362) (end 116.3853 115.5548) (width 0.25) (layer F.Cu) (net 133))
   (segment (start 115.85194 118.07698) (end 116.3853 117.54362) (width 0.25) (layer F.Cu) (net 133))
-  (segment (start 114.68994 118.72082) (end 115.02644 118.38432) (width 0.25) (layer B.Cu) (net 133))
-  (segment (start 113.16402 118.72082) (end 114.68994 118.72082) (width 0.25) (layer B.Cu) (net 133))
-  (segment (start 115.02644 115.9383) (end 115.43792 115.52682) (width 0.25) (layer B.Cu) (net 133))
-  (segment (start 115.43792 115.52682) (end 116.41328 115.52682) (width 0.25) (layer B.Cu) (net 133))
-  (segment (start 115.02644 118.38432) (end 115.02644 115.9383) (width 0.25) (layer B.Cu) (net 133))
+  (segment (start 115.60298 115.5548) (end 116.3853 115.5548) (width 0.25) (layer B.Cu) (net 133))
+  (segment (start 115.4303 115.72748) (end 115.60298 115.5548) (width 0.25) (layer B.Cu) (net 133))
+  (segment (start 115.4303 118.29796) (end 115.4303 115.72748) (width 0.25) (layer B.Cu) (net 133))
+  (segment (start 115.00744 118.72082) (end 115.4303 118.29796) (width 0.25) (layer B.Cu) (net 133))
+  (segment (start 113.16402 118.72082) (end 115.00744 118.72082) (width 0.25) (layer B.Cu) (net 133))
 
   (zone (net 2) (net_name GND) (layer GND.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
