@@ -11,7 +11,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "Susumu" 500 100 50 H I C CNN "Manufacturer"
 F5 "RR1220P-184-D" 1050 100 50 H I C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 500 0 50 H I C CNN "Supplier 1"
-F7 "RR12P180KDCT-ND" 1100 0 50 H I C CNN "Supplier Part Number"
+F7 "RR12P180KDCT-ND" 1100 0 50 H I C CNN "Supplier Part Number 1"
 DRAW
 S -40 -100 40 100 1 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P

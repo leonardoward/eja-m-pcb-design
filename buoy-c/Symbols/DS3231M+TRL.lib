@@ -11,7 +11,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "Maxim Integrated" 1100 300 50 H I C CNN "Manufacturer"
 F5 "DS3231M+TRL" 1800 300 50 H I C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 950 200 50 H I C CNN "Supplier 1"
-F7 "DS3231M+TRLCT-ND" 1650 200 50 H I C CNN "Supplier Part Number"
+F7 "DS3231M+TRLCT-ND" 1650 200 50 H I C CNN "Supplier Part Number 1"
 DRAW
 S -250 450 250 -450 0 1 6 f
 X 32KHZ 1 -350 250 100 R 50 50 1 1 P

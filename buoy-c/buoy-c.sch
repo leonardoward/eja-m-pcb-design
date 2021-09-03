@@ -5,7 +5,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Buoy C - Leonardo Ward"
-Date "2021-08-22"
+Date "2021-09-02"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -605,36 +605,6 @@ F 5 "CRCW080510K0FKEAC" H 13200 1150 100 0001 C CNN "Manufacturer_Part_Number"
 F 6 "Digi-Key" H 11750 1000 100 0001 C CNN "Supplier 1"
 F 7 "541-3976-1-ND" H 12850 1000 100 0001 C CNN "Supplier Part Number 1"
 	1    11000 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C-1uF-0805:1uF C16
-U 1 1 612F63BB
-P 10500 1600
-F 0 "C16" H 10615 1646 50  0000 L CNN
-F 1 "1uF" H 10615 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 12300 1800 100 0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 10500 1600 100 0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 12100 1600 100 0001 C CNN "Manufacturer"
-F 5 "CL21B105KPFNNNE" H 14000 1600 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 11350 1450 100 0001 C CNN "Supplier 1"
-F 7 "1276-1275-1-ND" H 12550 1450 100 0001 C CNN "Supplier Part Number 1"
-	1    10500 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L C-1uF-0805:1uF C18
-U 1 1 612F7340
-P 11000 2700
-F 0 "C18" H 11115 2746 50  0000 L CNN
-F 1 "1uF" H 11115 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 12800 2900 100 0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 11000 2700 100 0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 12600 2700 100 0001 C CNN "Manufacturer"
-F 5 "CL21B105KPFNNNE" H 14500 2700 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 11850 2550 100 0001 C CNN "Supplier 1"
-F 7 "1276-1275-1-ND" H 13050 2550 100 0001 C CNN "Supplier Part Number 1"
-	1    11000 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1376,23 +1346,8 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/DS3231M.pdf" H 10450 5800 50  
 F 4 "Maxim Integrated" H 11550 6100 50  0001 C CNN "Manufacturer"
 F 5 "DS3231M+TRL" H 12250 6100 50  0001 C CNN "Manufacturer Part Number"
 F 6 "Digi-Key" H 11400 6000 50  0001 C CNN "Supplier 1"
-F 7 "DS3231M+TRLCT-ND" H 12100 6000 50  0001 C CNN "Supplier Part Number"
+F 7 "DS3231M+TRLCT-ND" H 10450 5800 50  0001 C CNN "Supplier Part Number 1"
 	1    10450 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C-1uF-0805:1uF C15
-U 1 1 61302292
-P 9100 5500
-F 0 "C15" H 9215 5546 50  0000 L CNN
-F 1 "1uF" H 9215 5455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10900 5700 100 0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 9100 5500 100 0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 10700 5500 100 0001 C CNN "Manufacturer"
-F 5 "CL21B105KPFNNNE" H 12600 5500 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 9950 5350 100 0001 C CNN "Supplier 1"
-F 7 "1276-1275-1-ND" H 11150 5350 100 0001 C CNN "Supplier Part Number 1"
-	1    9100 5500
 	1    0    0    -1  
 $EndComp
 Text GLabel 1800 5500 0    50   Output ~ 0
@@ -2605,7 +2560,7 @@ F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" H 10100 7
 F 4 "Susumu" H 10600 7700 50  0001 C CNN "Manufacturer"
 F 5 "RR1220P-184-D" H 11150 7700 50  0001 C CNN "Manufacturer Part Number"
 F 6 "Digi-Key" H 10600 7600 50  0001 C CNN "Supplier 1"
-F 7 "RR12P180KDCT-ND" H 11200 7600 50  0001 C CNN "Supplier Part Number"
+F 7 "RR12P180KDCT-ND" H 10100 7600 50  0001 C CNN "Supplier Part Number 1"
 	1    10100 7600
 	1    0    0    -1  
 $EndComp
@@ -2952,10 +2907,11 @@ F 0 "C22" H 13815 2246 50  0000 L CNN
 F 1 "1uF" H 13815 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 15500 2400 100 0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 13700 2200 100 0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 15300 2200 100 0001 C CNN "Manufacturer"
+F 4 "YAGEO" H 15300 2200 100 0001 C CNN "Manufacturer"
 F 5 "CL21B105KPFNNNE" H 17200 2200 100 0001 C CNN "Manufacturer_Part_Number"
 F 6 "Digi-Key" H 14550 2050 100 0001 C CNN "Supplier 1"
-F 7 "1276-1275-1-ND" H 15750 2050 100 0001 C CNN "Supplier Part Number 1"
+F 7 "311-1365-1-ND" H 15750 2050 100 0001 C CNN "Supplier Part Number 1"
+F 8 "CC0805KKX7R7BB105" H 13700 2200 50  0001 C CNN "Manufacturer Part Number"
 	1    13700 2200
 	1    0    0    -1  
 $EndComp
@@ -3511,4 +3467,52 @@ Wire Wire Line
 	7400 9250 7400 9450
 Wire Wire Line
 	7400 9450 7050 9450
+$Comp
+L C-1uF-0805:1uF C18
+U 1 1 612F7340
+P 11000 2700
+F 0 "C18" H 11115 2746 50  0000 L CNN
+F 1 "1uF" H 11115 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12800 2900 100 0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 11000 2700 100 0001 C CNN
+F 4 "YAGEO" H 12600 2700 100 0001 C CNN "Manufacturer"
+F 5 "CL21B105KPFNNNE" H 14500 2700 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 11850 2550 100 0001 C CNN "Supplier 1"
+F 7 "311-1365-1-ND" H 13050 2550 100 0001 C CNN "Supplier Part Number 1"
+F 8 "CC0805KKX7R7BB105" H 11000 2700 50  0001 C CNN "Manufacturer Part Number"
+	1    11000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-1uF-0805:1uF C15
+U 1 1 61302292
+P 9100 5500
+F 0 "C15" H 9215 5546 50  0000 L CNN
+F 1 "1uF" H 9215 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10900 5700 100 0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 9100 5500 100 0001 C CNN
+F 4 "YAGEO" H 10700 5500 100 0001 C CNN "Manufacturer"
+F 5 "CL21B105KPFNNNE" H 12600 5500 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 9950 5350 100 0001 C CNN "Supplier 1"
+F 7 "311-1365-1-ND" H 11150 5350 100 0001 C CNN "Supplier Part Number 1"
+F 8 "CC0805KKX7R7BB105" H 9100 5500 50  0001 C CNN "Manufacturer Part Number"
+	1    9100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-1uF-0805:1uF C16
+U 1 1 612F63BB
+P 10500 1600
+F 0 "C16" H 10615 1646 50  0000 L CNN
+F 1 "1uF" H 10615 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12300 1800 100 0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 10500 1600 100 0001 C CNN
+F 4 "YAGEO" H 12100 1600 100 0001 C CNN "Manufacturer"
+F 5 "CL21B105KPFNNNE" H 14000 1600 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 11350 1450 100 0001 C CNN "Supplier 1"
+F 7 "311-1365-1-ND" H 12550 1450 100 0001 C CNN "Supplier Part Number 1"
+F 8 "CC0805KKX7R7BB105" H 10500 1600 50  0001 C CNN "Manufacturer Part Number"
+	1    10500 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
