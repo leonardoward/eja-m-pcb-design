@@ -3274,13 +3274,13 @@ F 3 "" H 12300 5700 50  0001 C CNN
 	1    12300 5700
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
+Wire Notes Line style solid
 	11550 3150 15600 3150
-Wire Notes Line
+Wire Notes Line style solid
 	15600 3150 15600 6500
-Wire Notes Line
+Wire Notes Line style solid
 	15600 6500 11550 6500
-Wire Notes Line
+Wire Notes Line style solid
 	11550 6500 11550 3150
 Text Notes 12550 3500 0    100  ~ 20
 EXTRA HEADERS AND LEDS
