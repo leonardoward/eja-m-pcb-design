@@ -40,8 +40,8 @@ This repository contains the Kicad project (including Gerber files) and a more d
     11. [Battery Charging Circuit](#battery-charging-circuit)
     12. [Battery Level](#battery-level)
     13. [3V3 3A SEPIC Converter](#3v3-3a-sepic-converter)
-    14. [ON/OFF Led](#on/off-led)
-    15. [ON/OFF Button Circuit](#on/off-button-circuit)
+    14. [ON-OFF Led](#on-off-led)
+    15. [ON-OFF Button Circuit](#on-off-button-circuit)
     16. [Extra Header](#extra-header)
 2. [PCB Dimensions and Boundaries](#pcb-dimensions-and-boundaries)
 3. [3D Model](#3d-model)
@@ -193,7 +193,7 @@ Since the voltage of the battery can change from 2.7V (discharged) to 4.2V (char
 
 **[Back to top](#table-of-contents)**
 
-### ON/OFF Led
+### ON-OFF Led
 
 There is  Green Led that turns on with the 3.3V from the SEPIC converter, it will notify the user/developer that the device is ON or OFF.
 
@@ -203,7 +203,7 @@ There is  Green Led that turns on with the 3.3V from the SEPIC converter, it wil
 
 **[Back to top](#table-of-contents)**
 
-### ON/OFF Button Circuit
+### ON-OFF Button Circuit
 
 The design contains a [LTC2954ITS8-1#TRPBF](https://www.digikey.com/en/products/detail/analog-devices-inc/LTC2954ITS8-1-TRPBF/1621452?s=N4IgTCBcDaIDIBUDCYCcBWALASQQZQA4BaARgGIEAlABQCEAxJBIgOQBEQBdAXyA), a pushbutton ON/OFF controller that manages the power supply (enables the 3.3V SEPIC) via a pushbutton interface.
 
