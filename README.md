@@ -45,6 +45,9 @@ This repository contains the Kicad project (including Gerber files) and a more d
     16. [Extra Header](#extra-header)
 2. [PCB Dimensions and Boundaries](#pcb-dimensions-and-boundaries)
 3. [3D Model](#3d-model)
+4. [Bill of Materials](#bill-of-materials)
+    1. [PCB Components](#pcb-components)
+    2. [Externals Components](#externals-components)
 
 ## Hardware Design
 
