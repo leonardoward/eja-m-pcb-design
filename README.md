@@ -20,7 +20,6 @@ The new EJA M v1.0 is an upgrade/replacement of my older PCB designs: [Buoy A v1
 - 3.3V 3A SEPIC Converter
 - On-OFF circuit for a Button
 - Access to unused pins in the ESP32
-- The design can be found in the following Github repository.
 
 This repository contains the Kicad project (including Gerber files) and a more detailed description about the implementation of the different features in the design.
 
