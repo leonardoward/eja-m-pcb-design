@@ -13,646 +13,112 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR0101
-U 1 1 612497F7
-P 1500 4200
-F 0 "#PWR0101" H 1500 3950 50  0001 C CNN
-F 1 "GND" H 1505 4027 50  0000 C CNN
-F 2 "" H 1500 4200 50  0001 C CNN
-F 3 "" H 1500 4200 50  0001 C CNN
-	1    1500 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L FB-350m-300mA-0805:350m FB1
-U 1 1 6124B56B
-P 3550 1750
-F 0 "FB1" V 3276 1750 50  0000 C CNN
-F 1 "350m" V 3367 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4600 2000 50  0001 C CNN
-F 3 "https://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=19103" H 3550 1750 50  0001 C CNN
-F 4 "Fair-Rite Products Corp." H 4450 1900 50  0001 C CNN "Manufacturer"
-F 5 "2508056017Y0" H 5250 1900 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 4150 1800 50  0001 C CNN "Supplier 1"
-F 7 "1934-1468-1-ND" H 4750 1800 50  0001 C CNN "Supplier Part Number 1"
-	1    3550 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L FB-350m-300mA-0805:350m FB2
-U 1 1 6124DEB4
-P 3850 1950
-F 0 "FB2" V 3800 1800 50  0000 C CNN
-F 1 "350m" V 3950 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4900 2200 50  0001 C CNN
-F 3 "https://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=19103" H 3850 1950 50  0001 C CNN
-F 4 "Fair-Rite Products Corp." H 4750 2100 50  0001 C CNN "Manufacturer"
-F 5 "2508056017Y0" H 5550 2100 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 4450 2000 50  0001 C CNN "Supplier 1"
-F 7 "1934-1468-1-ND" H 5050 2000 50  0001 C CNN "Supplier Part Number 1"
-	1    3850 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L CPDT6-5V4-HF:CPDT6-5V4-HF D3
-U 1 1 61251295
-P 3000 2500
-F 0 "D3" V 3171 2112 50  0000 R CNN
-F 1 "CPDT6-5V4-HF" V 3080 2112 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 4500 2650 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/80/CPDT6-5V4-HF_RevC831377-1481299.pdf" H 3000 2550 50  0001 C CNN
-F 4 "Comchip Technology" H 4050 2550 50  0001 C CNN "Manufacturer"
-F 5 "CPDT6-5V4-HF" H 4800 2550 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 3850 2450 50  0001 C CNN "Supplier 1"
-F 7 "641-1086-1-ND" H 4450 2450 50  0001 C CNN "Supplier Part Number 1"
-F 8 "Mouser" H 3800 2350 50  0001 C CNN "Supplier 2"
-F 9 "750-CPDT6-5V4-HF" H 4350 2350 50  0001 C CNN "Supplier Part Number 2"
-	1    3000 2500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R-5.1k-0805:5.1k R4
-U 1 1 612578F7
-P 2500 2450
-F 0 "R4" H 2570 2496 50  0000 L CNN
-F 1 "5.1k" H 2570 2405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3350 2650 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2500 2450 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 3200 2550 50  0001 C CNN "Manufacturer"
-F 5 "RMCF0805FT5K10" H 4100 2550 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 2950 2450 50  0001 C CNN "Supplier 1"
-F 7 "RMCF0805FT5K10CT-ND" H 3600 2450 50  0001 C CNN "Supplier Part Number 1"
-	1    2500 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L R-5.1k-0805:5.1k R6
-U 1 1 61258E4E
-P 2750 2800
-F 0 "R6" H 2820 2846 50  0000 L CNN
-F 1 "5.1k" H 2820 2755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3600 3000 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 2750 2800 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 3450 2900 50  0001 C CNN "Manufacturer"
-F 5 "RMCF0805FT5K10" H 4350 2900 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 3200 2800 50  0001 C CNN "Supplier 1"
-F 7 "RMCF0805FT5K10CT-ND" H 3850 2800 50  0001 C CNN "Supplier Part Number 1"
-	1    2750 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 6125AEA9
-P 2500 2650
-F 0 "#PWR0102" H 2500 2400 50  0001 C CNN
-F 1 "GND" H 2505 2477 50  0000 C CNN
-F 2 "" H 2500 2650 50  0001 C CNN
-F 3 "" H 2500 2650 50  0001 C CNN
-	1    2500 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 6125BD90
-P 2750 3000
-F 0 "#PWR0103" H 2750 2750 50  0001 C CNN
-F 1 "GND" H 2755 2827 50  0000 C CNN
-F 2 "" H 2750 3000 50  0001 C CNN
-F 3 "" H 2750 3000 50  0001 C CNN
-	1    2750 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2500 2300 2500 2250
+	8700 1550 8600 1550
 Wire Wire Line
-	2500 2250 2350 2250
+	9000 1850 8100 1850
 Wire Wire Line
-	2500 2600 2500 2650
-Wire Wire Line
-	2750 2650 2750 2150
-Wire Wire Line
-	2750 2150 2350 2150
-Wire Wire Line
-	2750 2950 2750 3000
-Wire Wire Line
-	2350 1950 2350 2050
-Wire Wire Line
-	2350 1750 2350 1850
-Wire Wire Line
-	2350 1750 3100 1750
-Wire Wire Line
-	2350 1950 3200 1950
-Wire Wire Line
-	3000 2150 3000 1250
-Wire Wire Line
-	3000 1250 2350 1250
-Wire Wire Line
-	3100 2150 3100 1750
-Connection ~ 3100 1750
-Wire Wire Line
-	3100 1750 3400 1750
-Wire Wire Line
-	3200 2150 3200 1950
-Connection ~ 3200 1950
-Wire Wire Line
-	3200 1950 3700 1950
-$Comp
-L power:GND #PWR0104
-U 1 1 6125F440
-P 3000 2900
-F 0 "#PWR0104" H 3000 2650 50  0001 C CNN
-F 1 "GND" H 3005 2727 50  0000 C CNN
-F 2 "" H 3000 2900 50  0001 C CNN
-F 3 "" H 3000 2900 50  0001 C CNN
-	1    3000 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 6125F9B7
-P 3300 2900
-F 0 "#PWR0105" H 3300 2650 50  0001 C CNN
-F 1 "GND" H 3305 2727 50  0000 C CNN
-F 2 "" H 3300 2900 50  0001 C CNN
-F 3 "" H 3300 2900 50  0001 C CNN
-	1    3300 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 2600 3300 2900
-Wire Wire Line
-	3000 2900 3000 2600
-Wire Wire Line
-	1500 4200 1450 4200
-Wire Wire Line
-	1150 4200 1150 4050
-Wire Wire Line
-	1250 4050 1250 4200
-Connection ~ 1250 4200
-Wire Wire Line
-	1250 4200 1150 4200
-Wire Wire Line
-	1350 4050 1350 4200
-Connection ~ 1350 4200
-Wire Wire Line
-	1350 4200 1250 4200
-Wire Wire Line
-	1450 4050 1450 4200
-Connection ~ 1450 4200
-Wire Wire Line
-	1450 4200 1350 4200
-Wire Wire Line
-	1500 4200 1550 4200
-Wire Wire Line
-	1550 4200 1550 4050
-Connection ~ 1500 4200
-Wire Wire Line
-	1550 4200 1650 4200
-Wire Wire Line
-	1650 4200 1650 4050
-Connection ~ 1550 4200
-Wire Wire Line
-	1650 4200 1750 4200
-Wire Wire Line
-	1750 4200 1750 4050
-Connection ~ 1650 4200
-Wire Wire Line
-	1750 4200 1850 4200
-Wire Wire Line
-	1850 4200 1850 4050
-Connection ~ 1750 4200
-Connection ~ 2350 1250
-Connection ~ 2350 1950
-Connection ~ 2350 1750
-Connection ~ 2350 1350
-Wire Wire Line
-	2350 1250 2350 1350
-Connection ~ 2350 1450
-Wire Wire Line
-	2350 1350 2350 1450
-Wire Wire Line
-	2350 1550 2350 1450
-$Comp
-L UJ31-CH-G2-SMT-TR:UJ31-CH-G2-SMT-TR J1
-U 1 1 612458C6
-P 1450 2450
-F 0 "J1" H 1707 3917 50  0000 C CNN
-F 1 "UJ31-CH-G2-SMT-TR" H 1707 3826 50  0000 C CNN
-F 2 "UJ31CHG2SMTTR:UJ31CHG2SMTTR" H 2700 2950 50  0001 L CNN
-F 3 "https://www.arrow.com/en/products/uj31-ch-g2-smt-tr/cui-devices" H 2700 2850 50  0001 L CNN
-F 4 "USB Connectors USB jack 3.1 C type 24pin Horz SMT" H 2700 2750 50  0001 L CNN "Description"
-F 5 "4.66" H 2700 2650 50  0001 L CNN "Height"
-F 6 "CUI Devices" H 2700 2550 50  0001 L CNN "Manufacturer_Name"
-F 7 "UJ31-CH-G2-SMT-TR" H 3450 2550 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "Digi-Key" H 2750 2350 50  0001 L CNN "Supplier 1"
-F 9 "102-4483-1-ND" H 3250 2350 50  0001 L CNN "Supplier Part Number 1"
-F 10 "Mouser" H 2700 2250 50  0001 L CNN "Supplier 2"
-F 11 "490-UJ31-CH-G2SMT-TR" H 3250 2250 50  0001 L CNN "Supplier Part Number 2"
-	1    1450 2450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2350 2450
-NoConn ~ 2350 2550
-NoConn ~ 2350 2750
-NoConn ~ 2350 2850
-NoConn ~ 2350 3050
-NoConn ~ 2350 3150
-NoConn ~ 2350 3350
-NoConn ~ 2350 3450
-NoConn ~ 2350 3650
-NoConn ~ 2350 3750
-Wire Notes Line style solid
-	950  900  950  4500
-Wire Notes Line style solid
-	950  4500 4650 4500
-Wire Notes Line style solid
-	4650 4500 4650 900 
-Wire Notes Line style solid
-	4650 900  950  900 
-Text Notes 2800 1100 0    100  ~ 20
-USB C
-$Comp
-L FT260S-U:FT260S-U U5
-U 1 1 61270413
-P 6600 1450
-F 0 "U5" H 7400 1715 50  0000 C CNN
-F 1 "FT260S-U" H 7400 1624 50  0000 C CNN
-F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 8500 1350 50  0001 L CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT260.pdf" H 8550 1350 50  0001 L CNN
-F 4 "FTDI - FT260S-U - INTERFACE BRIDGE, USB TO I2C/UART, TSSOP" H 8500 1550 50  0001 L CNN "Description"
-F 5 "1.2" H 8500 1450 50  0001 L CNN "Height"
-F 6 "FTDI Chip" H 8500 1650 50  0001 L CNN "Manufacturer_Name"
-F 7 "FT260S-U" H 9000 1650 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "Digi-Key" H 8600 1250 50  0001 L CNN "Supplier 1"
-F 9 "768-1282-5-ND" H 9000 1250 50  0001 L CNN "Supplier Part Number 1"
-F 10 "Mouser" H 8550 1150 50  0001 L CNN "Supplier 2"
-F 11 "895-FT260S-U" H 9000 1150 50  0001 L CNN "Supplier Part Number 2"
-	1    6600 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L R-27-0805:27 R12
-U 1 1 61272845
-P 6200 1650
-F 0 "R12" V 5993 1650 50  0000 C CNN
-F 1 "27" V 6084 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7100 1850 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6200 1650 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 7000 1750 50  0001 C CNN "Manufacturer"
-F 5 "RMCF0805FT27R0" H 7900 1750 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 6700 1650 50  0001 C CNN "Supplier 1"
-F 7 "738-RMCF0805FT27R0CT-ND" H 7500 1650 50  0001 C CNN "Supplier Part Number 1"
-	1    6200 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L R-27-0805:27 R13
-U 1 1 61273DB9
-P 6200 1850
-F 0 "R13" V 6100 1850 50  0000 C CNN
-F 1 "27" V 6300 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7100 2050 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6200 1850 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 7000 1950 50  0001 C CNN "Manufacturer"
-F 5 "RMCF0805FT27R0" H 7900 1950 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 6700 1850 50  0001 C CNN "Supplier 1"
-F 7 "738-RMCF0805FT27R0CT-ND" H 7500 1850 50  0001 C CNN "Supplier Part Number 1"
-	1    6200 1850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6350 1650 6600 1650
-Wire Wire Line
-	6350 1850 6350 1750
-Wire Wire Line
-	6350 1750 6600 1750
-NoConn ~ 6600 1850
-Wire Wire Line
-	6600 1950 6600 2050
-Wire Wire Line
-	6600 2450 6600 2350
-Wire Wire Line
-	6600 2250 6600 2350
-Connection ~ 6600 2350
-Wire Wire Line
-	6600 2150 6600 2250
-Connection ~ 6600 2250
-Wire Wire Line
-	6600 2050 6600 2150
-Connection ~ 6600 2050
-Connection ~ 6600 2150
-$Comp
-L C-4.7uF-0805:4.7uF C11
-U 1 1 612798EB
-P 5800 1200
-F 0 "C11" H 5915 1246 50  0000 L CNN
-F 1 "4.7uF" H 5915 1155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7000 1400 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21A475KQFNNNE.jsp" H 5800 1200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 6800 1300 50  0001 C CNN "Manufacturer"
-F 5 "CL21A475KQFNNNE" H 7800 1300 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 6500 1200 50  0001 C CNN "Supplier 1"
-F 7 "1276-1198-1-ND" H 7100 1200 50  0001 C CNN "Supplier Part Number 1"
-	1    5800 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C-100nF-0805:100nF C9
-U 1 1 6127B10F
-P 5300 1200
-F 0 "C9" H 5415 1246 50  0000 L CNN
-F 1 "100nF" H 5415 1155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6500 1500 50  0001 C CNN
-F 3 "https://datasheets.avx.com/X7RDielectric.pdf" H 5300 1200 50  0001 C CNN
-F 4 "AVX Corporation" H 6100 1400 50  0001 C CNN "Manufacturer"
-F 5 "08055C104KAT2A" H 6900 1400 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 6000 1300 50  0001 C CNN "Supplier 1"
-F 7 "478-1395-1-ND" H 6800 1300 50  0001 C CNN "Supplier Part Number 1"
-	1    5300 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C-47pF-0805:47pF C12
-U 1 1 6127BF03
-P 5800 2100
-F 0 "C12" H 5915 2146 50  0000 L CNN
-F 1 "47pF" H 5915 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6700 2300 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012007014.pdf" H 5800 2100 50  0001 C CNN
-F 4 "Würth Elektronik" H 6400 2200 50  0001 C CNN "Manufacturer"
-F 5 "885012007014" H 7100 2200 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 6400 2100 50  0001 C CNN "Supplier 1"
-F 7 "732-7818-1-ND" H 7000 2100 50  0001 C CNN "Supplier Part Number 1"
-	1    5800 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L C-47pF-0805:47pF C10
-U 1 1 6127CF96
-P 5300 2100
-F 0 "C10" H 5415 2146 50  0000 L CNN
-F 1 "47pF" H 5415 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6200 2300 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012007014.pdf" H 5300 2100 50  0001 C CNN
-F 4 "Würth Elektronik" H 5900 2200 50  0001 C CNN "Manufacturer"
-F 5 "885012007014" H 6600 2200 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 5900 2100 50  0001 C CNN "Supplier 1"
-F 7 "732-7818-1-ND" H 6500 2100 50  0001 C CNN "Supplier Part Number 1"
-	1    5300 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 1950 5800 1650
-Connection ~ 5800 1650
-Wire Wire Line
-	5800 1650 6050 1650
-Wire Wire Line
-	5300 1950 5300 1850
-Connection ~ 5300 1850
-Wire Wire Line
-	5300 1850 6050 1850
-$Comp
-L power:GND #PWR0106
-U 1 1 6128143D
-P 5300 2300
-F 0 "#PWR0106" H 5300 2050 50  0001 C CNN
-F 1 "GND" H 5305 2127 50  0000 C CNN
-F 2 "" H 5300 2300 50  0001 C CNN
-F 3 "" H 5300 2300 50  0001 C CNN
-	1    5300 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 61281B5A
-P 5800 2300
-F 0 "#PWR0107" H 5800 2050 50  0001 C CNN
-F 1 "GND" H 5805 2127 50  0000 C CNN
-F 2 "" H 5800 2300 50  0001 C CNN
-F 3 "" H 5800 2300 50  0001 C CNN
-	1    5800 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 2300 5300 2250
-Wire Wire Line
-	5800 2250 5800 2300
-$Comp
-L power:GND #PWR0108
-U 1 1 61283982
-P 5800 1400
-F 0 "#PWR0108" H 5800 1150 50  0001 C CNN
-F 1 "GND" H 5805 1227 50  0000 C CNN
-F 2 "" H 5800 1400 50  0001 C CNN
-F 3 "" H 5800 1400 50  0001 C CNN
-	1    5800 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 612840DF
-P 5300 1400
-F 0 "#PWR0109" H 5300 1150 50  0001 C CNN
-F 1 "GND" H 5305 1227 50  0000 C CNN
-F 2 "" H 5300 1400 50  0001 C CNN
-F 3 "" H 5300 1400 50  0001 C CNN
-	1    5300 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 1350 5300 1400
-Wire Wire Line
-	5800 1350 5800 1400
-Wire Wire Line
-	5800 1050 5300 1050
-Connection ~ 5800 1050
-Connection ~ 5300 1050
-$Comp
-L power:GND #PWR0110
-U 1 1 61289ED8
-P 6600 2800
-F 0 "#PWR0110" H 6600 2550 50  0001 C CNN
-F 1 "GND" H 6605 2627 50  0000 C CNN
-F 2 "" H 6600 2800 50  0001 C CNN
-F 3 "" H 6600 2800 50  0001 C CNN
-	1    6600 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 2750 6600 2800
-Wire Wire Line
-	6600 2650 6600 2750
-Connection ~ 6600 2750
-Wire Wire Line
-	6600 2550 6600 2650
-Connection ~ 6600 2650
-NoConn ~ 8200 2750
-NoConn ~ 8200 2650
-NoConn ~ 8200 2550
-NoConn ~ 8200 2450
-NoConn ~ 8200 2350
-NoConn ~ 8200 2250
-NoConn ~ 8200 2150
-NoConn ~ 8200 2050
-NoConn ~ 8200 1750
-Text GLabel 8350 1450 2    50   Output ~ 0
-ESP_RX
-Text GLabel 8350 1550 2    50   Input ~ 0
-ESP_TX
-Wire Wire Line
-	8200 1450 8350 1450
-Wire Wire Line
-	8200 1550 8350 1550
-Wire Notes Line style solid
-	4750 900  4750 3100
-Wire Notes Line style solid
-	8750 3100 8750 900 
-Wire Notes Line style solid
-	8750 900  4750 900 
-Text Notes 6550 1100 0    100  ~ 20
-FTDI
-Wire Wire Line
-	9700 1550 9600 1550
-Wire Wire Line
-	9300 1550 9250 1550
-Wire Wire Line
-	9250 1550 9250 2000
-Wire Wire Line
-	9250 2000 10000 2000
-Wire Wire Line
-	10000 2000 10000 2100
-Wire Wire Line
-	10000 1850 9100 1850
-Wire Wire Line
-	9100 1850 9100 1950
-Wire Wire Line
-	9100 2300 9300 2300
-Wire Wire Line
-	9600 2300 9700 2300
+	8600 2200 8700 2200
 $Comp
 L power:GND #PWR0111
 U 1 1 612D888E
-P 10500 1800
-F 0 "#PWR0111" H 10500 1550 50  0001 C CNN
-F 1 "GND" H 10505 1627 50  0000 C CNN
-F 2 "" H 10500 1800 50  0001 C CNN
-F 3 "" H 10500 1800 50  0001 C CNN
-	1    10500 1800
+P 9500 1950
+F 0 "#PWR0111" H 9500 1700 50  0001 C CNN
+F 1 "GND" H 9505 1777 50  0000 C CNN
+F 2 "" H 9500 1950 50  0001 C CNN
+F 3 "" H 9500 1950 50  0001 C CNN
+	1    9500 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 1750 10000 1850
+	9000 1750 9000 1850
 Wire Wire Line
-	10000 1350 10500 1350
+	9000 1350 9500 1350
 Wire Wire Line
-	10500 1350 10500 1300
+	9500 1350 9500 1300
+Connection ~ 9500 1350
 Wire Wire Line
-	10500 1450 10500 1350
-Connection ~ 10500 1350
-Wire Wire Line
-	10500 1800 10500 1750
+	9500 1950 9500 1900
 $Comp
 L power:GND #PWR0112
 U 1 1 612E5B2D
-P 11000 2900
-F 0 "#PWR0112" H 11000 2650 50  0001 C CNN
-F 1 "GND" H 11005 2727 50  0000 C CNN
-F 2 "" H 11000 2900 50  0001 C CNN
-F 3 "" H 11000 2900 50  0001 C CNN
-	1    11000 2900
+P 10000 2850
+F 0 "#PWR0112" H 10000 2600 50  0001 C CNN
+F 1 "GND" H 10005 2677 50  0000 C CNN
+F 2 "" H 10000 2850 50  0001 C CNN
+F 3 "" H 10000 2850 50  0001 C CNN
+	1    10000 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11000 2900 11000 2850
-Wire Wire Line
-	11000 2550 11000 2500
-Wire Wire Line
-	10000 2500 11000 2500
-Connection ~ 11000 2500
-Wire Wire Line
-	11000 2500 11000 1300
-Wire Wire Line
-	10350 1000 10500 1000
+	10000 2850 10000 2800
 $Comp
 L R-10K-0805:10K R28
 U 1 1 612F47ED
-P 10500 1150
-F 0 "R28" H 10570 1196 50  0000 L CNN
-F 1 "10K" H 10570 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 12050 1350 100 0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 10500 1150 100 0001 C CNN
-F 4 "Vishay Dale" H 11350 1150 100 0001 C CNN "Manufacturer"
-F 5 "CRCW080510K0FKEAC" H 12700 1150 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 11250 1000 100 0001 C CNN "Supplier 1"
-F 7 "541-3976-1-ND" H 12350 1000 100 0001 C CNN "Supplier Part Number 1"
-	1    10500 1150
+P 9500 1150
+F 0 "R28" H 9570 1196 50  0000 L CNN
+F 1 "10K" H 9570 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 11050 1350 100 0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 9500 1150 100 0001 C CNN
+F 4 "Vishay Dale" H 10350 1150 100 0001 C CNN "Manufacturer"
+F 5 "CRCW080510K0FKEAC" H 11700 1150 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 10250 1000 100 0001 C CNN "Supplier 1"
+F 7 "541-3976-1-ND" H 11350 1000 100 0001 C CNN "Supplier Part Number 1"
+	1    9500 1150
 	1    0    0    -1  
 $EndComp
-Connection ~ 10500 1000
-Wire Wire Line
-	10500 1000 11000 1000
 $Comp
 L R-10K-0805:10K R29
 U 1 1 612F56CF
-P 11000 1150
-F 0 "R29" H 11070 1196 50  0000 L CNN
-F 1 "10K" H 11070 1105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 12550 1350 100 0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 11000 1150 100 0001 C CNN
-F 4 "Vishay Dale" H 11850 1150 100 0001 C CNN "Manufacturer"
-F 5 "CRCW080510K0FKEAC" H 13200 1150 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 11750 1000 100 0001 C CNN "Supplier 1"
-F 7 "541-3976-1-ND" H 12850 1000 100 0001 C CNN "Supplier Part Number 1"
-	1    11000 1150
+P 10000 1150
+F 0 "R29" H 10070 1196 50  0000 L CNN
+F 1 "10K" H 10070 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 11550 1350 100 0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 10000 1150 100 0001 C CNN
+F 4 "Vishay Dale" H 10850 1150 100 0001 C CNN "Manufacturer"
+F 5 "CRCW080510K0FKEAC" H 12200 1150 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 10750 1000 100 0001 C CNN "Supplier 1"
+F 7 "541-3976-1-ND" H 11850 1000 100 0001 C CNN "Supplier Part Number 1"
+	1    10000 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L R-10K-0805:10K R23
 U 1 1 612F7EB3
-P 9450 1550
-F 0 "R23" V 9243 1550 50  0000 C CNN
-F 1 "10K" V 9334 1550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11000 1750 100 0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 9450 1550 100 0001 C CNN
-F 4 "Vishay Dale" H 10300 1550 100 0001 C CNN "Manufacturer"
-F 5 "CRCW080510K0FKEAC" H 11650 1550 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 10200 1400 100 0001 C CNN "Supplier 1"
-F 7 "541-3976-1-ND" H 11300 1400 100 0001 C CNN "Supplier Part Number 1"
-	1    9450 1550
+P 8450 1550
+F 0 "R23" V 8243 1550 50  0000 C CNN
+F 1 "10K" V 8334 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10000 1750 100 0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 8450 1550 100 0001 C CNN
+F 4 "Vishay Dale" H 9300 1550 100 0001 C CNN "Manufacturer"
+F 5 "CRCW080510K0FKEAC" H 10650 1550 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 9200 1400 100 0001 C CNN "Supplier 1"
+F 7 "541-3976-1-ND" H 10300 1400 100 0001 C CNN "Supplier Part Number 1"
+	1    8450 1550
 	0    1    1    0   
 $EndComp
 $Comp
 L R-10K-0805:10K R24
 U 1 1 612F90CF
-P 9450 2300
-F 0 "R24" V 9243 2300 50  0000 C CNN
-F 1 "10K" V 9334 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 11000 2500 100 0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 9450 2300 100 0001 C CNN
-F 4 "Vishay Dale" H 10300 2300 100 0001 C CNN "Manufacturer"
-F 5 "CRCW080510K0FKEAC" H 11650 2300 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 10200 2150 100 0001 C CNN "Supplier 1"
-F 7 "541-3976-1-ND" H 11300 2150 100 0001 C CNN "Supplier Part Number 1"
-	1    9450 2300
+P 8450 2200
+F 0 "R24" V 8243 2200 50  0000 C CNN
+F 1 "10K" V 8334 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10000 2400 100 0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 8450 2200 100 0001 C CNN
+F 4 "Vishay Dale" H 9300 2200 100 0001 C CNN "Manufacturer"
+F 5 "CRCW080510K0FKEAC" H 10650 2200 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 9200 2050 100 0001 C CNN "Supplier 1"
+F 7 "541-3976-1-ND" H 10300 2050 100 0001 C CNN "Supplier Part Number 1"
+	1    8450 2200
 	0    1    1    0   
 $EndComp
-Connection ~ 9250 1550
-Text GLabel 10550 1350 2    50   Output ~ 0
+Text GLabel 9550 1350 2    50   Output ~ 0
 ESP_IO0
-Text GLabel 11100 2500 2    50   Output ~ 0
+Text GLabel 10100 2450 2    50   Output ~ 0
 ESP_EN
 Wire Wire Line
-	11100 2500 11000 2500
-Wire Wire Line
-	10550 1350 10500 1350
-Wire Notes Line style solid
-	8800 3100 11500 3100
-Wire Notes Line style solid
-	11500 3100 11500 900 
-Wire Notes Line style solid
-	11500 900  8800 900 
-Text Notes 9850 1150 2    100  ~ 20
+	9550 1350 9500 1350
+Text Notes 9100 1150 2    100  ~ 20
 AUTO RESET
 $Comp
 L ESP32-WROOM-32D:ESP32-WROOM-32D U4
@@ -785,38 +251,9 @@ Wire Wire Line
 Connection ~ 9850 4550
 Wire Wire Line
 	9850 4550 9850 4600
-Text Label 4200 1250 0    50   ~ 0
-5V_USB
-Wire Wire Line
-	4700 1750 4700 1650
-Wire Wire Line
-	3700 1750 4700 1750
-Wire Wire Line
-	4700 1650 5800 1650
-Wire Wire Line
-	4700 1250 4700 1050
-Wire Wire Line
-	4700 1050 5300 1050
-Connection ~ 3000 1250
-Wire Wire Line
-	4700 1950 4700 1850
-Wire Wire Line
-	4000 1950 4700 1950
-Wire Wire Line
-	4700 1850 5300 1850
-Text Label 4200 1750 0    50   ~ 0
-D-
-Text Label 4200 1950 0    50   ~ 0
-D+
-Wire Wire Line
-	8800 1650 8800 1550
-Wire Wire Line
-	8200 1650 8800 1650
-Wire Wire Line
-	8800 1550 9250 1550
-Text Label 8900 1550 0    50   ~ 0
+Text Label 7900 1550 0    50   ~ 0
 RTS
-Text Label 8900 1950 0    50   ~ 0
+Text Label 7900 1650 0    50   ~ 0
 DTR
 Wire Wire Line
 	5600 3850 5600 3900
@@ -1504,8 +941,6 @@ Wire Notes Line style solid
 	8750 3200 4750 3200
 Text Notes 5050 3550 0    100  ~ 20
 ESP32
-Wire Wire Line
-	3000 1250 4700 1250
 Text Label 2100 7100 0    50   ~ 0
 5V_USB
 Text Notes 4250 7000 0    100  ~ 20
@@ -1514,8 +949,6 @@ Wire Notes Line style solid
 	8800 4950 8800 6500
 Wire Notes Line style solid
 	8800 3150 8800 4850
-Wire Notes Line style solid
-	8800 900  8800 3100
 Wire Notes Line style solid
 	4750 6550 8750 6550
 Wire Notes Line style solid
@@ -1627,31 +1060,31 @@ SEPIC Regulator 3V3
 $Comp
 L NPN-30V-600mA:MMBT2222LT1G Q3
 U 1 1 61644BE7
-P 10000 2300
-F 0 "Q3" H 10091 2254 50  0000 L CNN
-F 1 "MMBT2222LT1G" H 9700 2550 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11300 2150 100 0001 C CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf" H 10000 2300 100 0001 C CNN
-F 4 "ON Semiconductor" H 10850 2000 100 0001 C CNN "Manufacturer"
-F 5 "MMBT2222LT1G" H 12200 2000 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 10500 1850 100 0001 C CNN "Supplier 1"
-F 7 "MMBT2222LT1GOSCT-ND" H 11800 1850 100 0001 C CNN "Supplier Part Number 1"
-	1    10000 2300
+P 9000 2200
+F 0 "Q3" H 9091 2154 50  0000 L CNN
+F 1 "MMBT2222LT1G" H 8400 2400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 2050 100 0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf" H 9000 2200 100 0001 C CNN
+F 4 "ON Semiconductor" H 9850 1900 100 0001 C CNN "Manufacturer"
+F 5 "MMBT2222LT1G" H 11200 1900 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 9500 1750 100 0001 C CNN "Supplier 1"
+F 7 "MMBT2222LT1GOSCT-ND" H 10800 1750 100 0001 C CNN "Supplier Part Number 1"
+	1    9000 2200
 	1    0    0    1   
 $EndComp
 $Comp
 L NPN-30V-600mA:MMBT2222LT1G Q2
 U 1 1 616475EA
-P 10000 1550
-F 0 "Q2" H 10091 1596 50  0000 L CNN
-F 1 "MMBT2222LT1G" H 9750 1800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11300 1400 100 0001 C CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf" H 10000 1550 100 0001 C CNN
-F 4 "ON Semiconductor" H 10850 1250 100 0001 C CNN "Manufacturer"
-F 5 "MMBT2222LT1G" H 12200 1250 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 10500 1100 100 0001 C CNN "Supplier 1"
-F 7 "MMBT2222LT1GOSCT-ND" H 11800 1100 100 0001 C CNN "Supplier Part Number 1"
-	1    10000 1550
+P 9000 1550
+F 0 "Q2" H 9091 1596 50  0000 L CNN
+F 1 "MMBT2222LT1G" H 8750 1800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10300 1400 100 0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/mmbt2222lt1-d.pdf" H 9000 1550 100 0001 C CNN
+F 4 "ON Semiconductor" H 9850 1250 100 0001 C CNN "Manufacturer"
+F 5 "MMBT2222LT1G" H 11200 1250 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 9500 1100 100 0001 C CNN "Supplier 1"
+F 7 "MMBT2222LT1GOSCT-ND" H 10800 1100 100 0001 C CNN "Supplier Part Number 1"
+	1    9000 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1711,12 +1144,6 @@ F 3 "" H 9850 3400 50  0001 C CNN
 	1    9850 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 6500 2050 0    50   Output ~ 0
-3V3_FTDI
-Wire Wire Line
-	6500 2050 6600 2050
-Text GLabel 10350 1000 0    50   Input ~ 0
-3V3_FTDI
 Wire Notes Line style solid
 	950  8350 6450 8350
 Wire Wire Line
@@ -2180,38 +1607,6 @@ F 3 "" H 9100 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9100 5350
-$Comp
-L R-5.1k-0805:5.1k R14
-U 1 1 6197E408
-P 6300 1250
-F 0 "R14" H 6370 1296 50  0000 L CNN
-F 1 "5.1k" H 6370 1205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7150 1450 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 6300 1250 50  0001 C CNN
-F 4 "Stackpole Electronics Inc" H 7000 1350 50  0001 C CNN "Manufacturer"
-F 5 "RMCF0805FT5K10" H 7900 1350 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 6750 1250 50  0001 C CNN "Supplier 1"
-F 7 "RMCF0805FT5K10CT-ND" H 7400 1250 50  0001 C CNN "Supplier Part Number 1"
-	1    6300 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 1400 6300 1550
-Wire Wire Line
-	6300 1550 6600 1550
-Wire Wire Line
-	6300 1100 6300 1050
-Connection ~ 6300 1050
-Wire Wire Line
-	6300 1050 5800 1050
-Wire Wire Line
-	6550 1050 6550 1450
-Wire Wire Line
-	6550 1450 6600 1450
-Wire Wire Line
-	6300 1050 6550 1050
-Wire Notes Line style solid
-	4750 3100 8750 3100
 $Comp
 L NPN-30V-600mA:MMBT2222LT1G Q1
 U 1 1 61A3DF3F
@@ -3128,60 +2523,6 @@ Wire Notes Line style solid
 	13500 8200 13500 6600
 Wire Notes Line style solid
 	13500 6600 11600 6600
-Wire Wire Line
-	8200 1950 9100 1950
-Connection ~ 9100 1950
-Wire Wire Line
-	9100 1950 9100 2300
-$Comp
-L R-620-0805:620 R30
-U 1 1 618EA291
-P 8400 2200
-F 0 "R30" H 8470 2246 50  0000 L CNN
-F 1 "620" H 8470 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 9500 2400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8400 2200 50  0001 C CNN
-F 4 "Yageo" H 9200 2300 50  0001 C CNN "Manufacturer"
-F 5 "RC0805JR-07620RL" H 9800 2300 50  0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 9200 2200 50  0001 C CNN "Supplier 1"
-F 7 "311-620ARCT-ND" H 9800 2200 50  0001 C CNN "Supplier Part Number 1"
-	1    8400 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED-RED-CLEAR-0805:RED-CLEAR D4
-U 1 1 618EC616
-P 8400 2550
-F 0 "D4" V 8400 2450 50  0000 R CNN
-F 1 "RED-CLEAR" V 8550 2700 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 8450 2050 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080SS75000.pdf" H 8400 2550 50  0001 C CNN
-F 4 "Digi-Key" H 8250 2150 50  0001 C CNN "Supplier 1"
-F 5 "732-4985-1-ND" H 8800 2150 50  0001 C CNN "Supplier Part Number 1"
-F 6 "Würth Elektronik" H 8150 2250 50  0001 C CNN "Manufacturer"
-F 7 "150080SS75000" H 8800 2250 50  0001 C CNN "Manufacturer Part Number"
-	1    8400 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0175
-U 1 1 618EDC0A
-P 8400 2750
-F 0 "#PWR0175" H 8400 2500 50  0001 C CNN
-F 1 "GND" H 8405 2577 50  0000 C CNN
-F 2 "" H 8400 2750 50  0001 C CNN
-F 3 "" H 8400 2750 50  0001 C CNN
-	1    8400 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 2050 8400 1850
-Wire Wire Line
-	8400 1850 8200 1850
-Wire Wire Line
-	8400 2350 8400 2400
-Wire Wire Line
-	8400 2700 8400 2750
 $Comp
 L power:GND #PWR0177
 U 1 1 61AB895F
@@ -3342,10 +2683,6 @@ F 3 "" H 8250 4850 50  0001 C CNN
 	1    8250 4850
 	1    0    0    -1  
 $EndComp
-Text Label 2600 1750 0    50   ~ 0
-FB1
-Text Label 2600 1950 0    50   ~ 0
-FB2
 NoConn ~ 5800 4100
 NoConn ~ 5800 4200
 NoConn ~ 7200 4300
@@ -3449,7 +2786,6 @@ Wire Wire Line
 	6050 8950 6050 9000
 Wire Wire Line
 	6050 9000 6000 9000
-NoConn ~ 3300 2150
 $Comp
 L power:GND #PWR0174
 U 1 1 6132AC93
@@ -3470,17 +2806,17 @@ Wire Wire Line
 $Comp
 L C-1uF-0805:1uF C18
 U 1 1 612F7340
-P 11000 2700
-F 0 "C18" H 11115 2746 50  0000 L CNN
-F 1 "1uF" H 11115 2655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 12800 2900 100 0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 11000 2700 100 0001 C CNN
-F 4 "YAGEO" H 12600 2700 100 0001 C CNN "Manufacturer"
-F 5 "CL21B105KPFNNNE" H 14500 2700 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 11850 2550 100 0001 C CNN "Supplier 1"
-F 7 "311-1365-1-ND" H 13050 2550 100 0001 C CNN "Supplier Part Number 1"
-F 8 "CC0805KKX7R7BB105" H 11000 2700 50  0001 C CNN "Manufacturer Part Number"
-	1    11000 2700
+P 10000 2650
+F 0 "C18" H 10115 2696 50  0000 L CNN
+F 1 "1uF" H 10115 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11800 2850 100 0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 10000 2650 100 0001 C CNN
+F 4 "YAGEO" H 11600 2650 100 0001 C CNN "Manufacturer"
+F 5 "CL21B105KPFNNNE" H 13500 2650 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 10850 2500 100 0001 C CNN "Supplier 1"
+F 7 "311-1365-1-ND" H 12050 2500 100 0001 C CNN "Supplier Part Number 1"
+F 8 "CC0805KKX7R7BB105" H 10000 2650 50  0001 C CNN "Manufacturer Part Number"
+	1    10000 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3502,17 +2838,195 @@ $EndComp
 $Comp
 L C-1uF-0805:1uF C16
 U 1 1 612F63BB
-P 10500 1600
-F 0 "C16" H 10615 1646 50  0000 L CNN
-F 1 "1uF" H 10615 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 12300 1800 100 0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 10500 1600 100 0001 C CNN
-F 4 "YAGEO" H 12100 1600 100 0001 C CNN "Manufacturer"
-F 5 "CL21B105KPFNNNE" H 14000 1600 100 0001 C CNN "Manufacturer_Part_Number"
-F 6 "Digi-Key" H 11350 1450 100 0001 C CNN "Supplier 1"
-F 7 "311-1365-1-ND" H 12550 1450 100 0001 C CNN "Supplier Part Number 1"
-F 8 "CC0805KKX7R7BB105" H 10500 1600 50  0001 C CNN "Manufacturer Part Number"
-	1    10500 1600
+P 9500 1750
+F 0 "C16" H 9615 1796 50  0000 L CNN
+F 1 "1uF" H 9615 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 11300 1950 100 0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B105KPFNNNE.jsp" H 9500 1750 100 0001 C CNN
+F 4 "YAGEO" H 11100 1750 100 0001 C CNN "Manufacturer"
+F 5 "CL21B105KPFNNNE" H 13000 1750 100 0001 C CNN "Manufacturer_Part_Number"
+F 6 "Digi-Key" H 10350 1600 100 0001 C CNN "Supplier 1"
+F 7 "311-1365-1-ND" H 11550 1600 100 0001 C CNN "Supplier Part Number 1"
+F 8 "CC0805KKX7R7BB105" H 9500 1750 50  0001 C CNN "Manufacturer Part Number"
+	1    9500 1750
 	1    0    0    -1  
 $EndComp
+Text Notes 7100 1800 0    50   ~ 0
+GND
+Text Notes 7100 1700 0    50   ~ 0
+DTR
+Text Notes 7100 1600 0    50   ~ 0
+RTS
+Text Notes 7100 1500 0    50   ~ 0
+RX
+Text Notes 7100 1400 0    50   ~ 0
+TX
+Text Notes 6950 1300 0    50   ~ 0
+3V3_FTDI
+Wire Wire Line
+	7550 1750 7500 1750
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 623E511E
+P 7300 1550
+F 0 "J1" H 7400 1050 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 7400 1150 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7300 1550 50  0001 C CNN
+F 3 "~" H 7300 1550 50  0001 C CNN
+	1    7300 1550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7500 1650 8100 1650
+Wire Wire Line
+	8100 1650 8100 1850
+Wire Wire Line
+	7500 1250 9350 1250
+Text GLabel 7550 1350 2    50   Input ~ 0
+ESP_TX
+Text GLabel 7550 1450 2    50   Output ~ 0
+ESP_RX
+Wire Wire Line
+	7500 1350 7550 1350
+Wire Wire Line
+	7500 1450 7550 1450
+Wire Notes Line
+	6950 1000 6950 1850
+Wire Notes Line
+	6950 1850 7900 1850
+Wire Notes Line
+	7900 1850 7900 1000
+Wire Notes Line
+	7900 1000 6950 1000
+Text Notes 7200 1000 0    50   ~ 0
+FTDI PROG
+$Comp
+L Connector:Conn_01x06_Male J6
+U 1 1 6260BF55
+P 10950 1550
+F 0 "J6" H 11100 1050 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 11300 1150 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10950 1550 50  0001 C CNN
+F 3 "~" H 10950 1550 50  0001 C CNN
+	1    10950 1550
+	-1   0    0    1   
+$EndComp
+Text Notes 11000 1500 0    50   ~ 0
+RX
+Text Notes 11000 1400 0    50   ~ 0
+TX
+Text Notes 11000 1300 0    50   ~ 0
+3V3_FTDI
+Text Notes 11000 1800 0    50   ~ 0
+GND
+Text Notes 11000 1600 0    50   ~ 0
+ESP_IO
+Text Notes 11000 1700 0    50   ~ 0
+ESP_EN
+$Comp
+L power:GND #PWR0101
+U 1 1 624206D9
+P 7550 1900
+F 0 "#PWR0101" H 7550 1650 50  0001 C CNN
+F 1 "GND" H 7555 1727 50  0000 C CNN
+F 2 "" H 7550 1900 50  0001 C CNN
+F 3 "" H 7550 1900 50  0001 C CNN
+	1    7550 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1900 7550 1750
+$Comp
+L power:GND #PWR0102
+U 1 1 62666DEE
+P 10700 1900
+F 0 "#PWR0102" H 10700 1650 50  0001 C CNN
+F 1 "GND" H 10705 1727 50  0000 C CNN
+F 2 "" H 10700 1900 50  0001 C CNN
+F 3 "" H 10700 1900 50  0001 C CNN
+	1    10700 1900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10600 1000 10600 1900
+Wire Notes Line
+	10600 1900 11350 1900
+Wire Notes Line
+	11350 1900 11350 1000
+Wire Notes Line
+	11350 1000 10600 1000
+Text Notes 10750 1000 0    50   ~ 0
+ESP PROG
+Wire Wire Line
+	10700 1900 10700 1750
+Wire Wire Line
+	10700 1750 10750 1750
+Wire Wire Line
+	9350 900  9500 900 
+Wire Wire Line
+	10500 900  10500 1250
+Wire Wire Line
+	10500 1250 10750 1250
+Wire Wire Line
+	9350 900  9350 1250
+Wire Wire Line
+	9500 1000 9500 900 
+Connection ~ 9500 900 
+Wire Wire Line
+	9500 900  10000 900 
+Wire Wire Line
+	10000 1000 10000 900 
+Connection ~ 10000 900 
+Wire Wire Line
+	10000 900  10500 900 
+Text GLabel 10550 1350 0    50   Input ~ 0
+ESP_TX
+Text GLabel 10550 1450 0    50   Output ~ 0
+ESP_RX
+Wire Wire Line
+	10750 1350 10550 1350
+Wire Wire Line
+	10750 1450 10550 1450
+Wire Wire Line
+	10750 1650 10000 1650
+Connection ~ 10000 1650
+Wire Wire Line
+	10000 1650 10000 1300
+Wire Wire Line
+	9500 1350 9500 1600
+Wire Wire Line
+	8100 1850 8100 2200
+Wire Wire Line
+	8100 2200 8300 2200
+Connection ~ 8100 1850
+Wire Wire Line
+	7500 1550 8200 1550
+Wire Wire Line
+	9000 2000 9000 1950
+Wire Wire Line
+	9000 1950 8200 1950
+Wire Wire Line
+	8200 1950 8200 1550
+Connection ~ 8200 1550
+Wire Wire Line
+	8200 1550 8300 1550
+Wire Wire Line
+	9000 2400 9000 2450
+Connection ~ 10000 2450
+Wire Wire Line
+	10000 2450 10000 1650
+Wire Wire Line
+	10000 2450 10100 2450
+Wire Wire Line
+	9000 2450 10000 2450
+Wire Wire Line
+	10000 2500 10000 2450
+Wire Notes Line style solid
+	11450 800  6900 800 
+Wire Notes Line style solid
+	6900 800  6900 3100
+Wire Notes Line style solid
+	6900 3100 11450 3100
+Wire Notes Line style solid
+	11450 3100 11450 800 
 $EndSCHEMATC
