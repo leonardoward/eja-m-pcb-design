@@ -138,7 +138,7 @@ F 10 "C473012" H 7050 3200 50  0001 L CNN "LCSC"
 	1    5800 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 5750 4000 0    50   Input ~ 0
+Text GLabel 5700 4000 0    50   Input ~ 0
 ESP_EN
 Text GLabel 5750 4400 0    50   Output ~ 0
 ESP_TX
@@ -146,8 +146,6 @@ Text GLabel 5750 4500 0    50   Input ~ 0
 ESP_RX
 Text GLabel 7250 3900 2    50   Input ~ 0
 ESP_IO0
-Wire Wire Line
-	5750 4000 5800 4000
 Wire Wire Line
 	5750 4400 5800 4400
 Wire Wire Line
@@ -257,8 +255,6 @@ Text Label 7900 1650 0    50   ~ 0
 DTR
 Wire Wire Line
 	5600 3850 5600 3900
-Wire Wire Line
-	5600 3900 5800 3900
 Wire Wire Line
 	9850 3400 9850 3450
 Text GLabel 7250 4500 2    50   Output ~ 0
@@ -1088,17 +1084,6 @@ F 7 "MMBT2222LT1GOSCT-ND" H 10800 1100 100 0001 C CNN "Supplier Part Number 1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR0134
-U 1 1 616C8CB2
-P 6050 8950
-F 0 "#PWR0134" H 6050 8800 50  0001 C CNN
-F 1 "+BATT" H 6065 9123 50  0000 C CNN
-F 2 "" H 6050 8950 50  0001 C CNN
-F 3 "" H 6050 8950 50  0001 C CNN
-	1    6050 8950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VDD #PWR0135
 U 1 1 6171CAF7
 P 5600 8950
@@ -1109,8 +1094,6 @@ F 3 "" H 5600 8950 50  0001 C CNN
 	1    5600 8950
 	1    0    0    -1  
 $EndComp
-Text Notes 5150 8650 0    50   ~ 0
-VDD Selector
 $Comp
 L power:VDD #PWR0136
 U 1 1 61757090
@@ -1199,8 +1182,6 @@ F 7 "RMCF0805FT1M00CT-ND" H 2750 9550 50  0001 C CNN "Supplier Part Number 1"
 	1    1550 9500
 	1    0    0    -1  
 $EndComp
-Text Notes 5050 9650 0    50   ~ 0
-Solder R32 to connect VDD to 3V3\nSolder R33 to connect VDD to BATT\nDO NOT SOLDER R32 AND R33\nIT WILL CREATE A SHORT CIRCUIT\nBETWEEN BATT AND 3V3
 Connection ~ 3700 9000
 Connection ~ 4750 9000
 Wire Wire Line
@@ -2137,25 +2118,20 @@ Wire Notes Line style solid
 	9400 9000 8250 9000
 Text Notes 8800 9400 0    100  ~ 20
 BATT\nLEVEL
-NoConn ~ 10300 9650
-NoConn ~ 10300 10250
-NoConn ~ 10300 10350
-NoConn ~ 10300 10050
-NoConn ~ 10300 10150
 $Comp
 L power:GND #PWR0163
 U 1 1 61E1DC37
-P 10000 9800
-F 0 "#PWR0163" H 10000 9550 50  0001 C CNN
-F 1 "GND" H 10005 9627 50  0000 C CNN
-F 2 "" H 10000 9800 50  0001 C CNN
-F 3 "" H 10000 9800 50  0001 C CNN
-	1    10000 9800
+P 10300 9850
+F 0 "#PWR0163" H 10300 9600 50  0001 C CNN
+F 1 "GND" H 10305 9677 50  0000 C CNN
+F 2 "" H 10300 9850 50  0001 C CNN
+F 3 "" H 10300 9850 50  0001 C CNN
+	1    10300 9850
 	1    0    0    -1  
 $EndComp
-Text GLabel 10300 9950 0    50   BiDi ~ 0
+Text GLabel 10300 9750 0    50   BiDi ~ 0
 SDA
-Text GLabel 10300 9850 0    50   BiDi ~ 0
+Text GLabel 10300 9650 0    50   BiDi ~ 0
 SCL
 Wire Notes Line style solid
 	9550 9000 9550 10400
@@ -2630,17 +2606,6 @@ Text Label 10300 7150 0    50   ~ 0
 Text Label 5650 7300 0    50   ~ 0
 BATT
 $Comp
-L Connector:Conn_01x09_Male J14
-U 1 1 61305654
-P 10500 9950
-F 0 "J14" H 10600 9300 50  0000 R CNN
-F 1 "Conn_01x09_Male" H 10600 9400 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 10500 9950 50  0001 C CNN
-F 3 "~" H 10500 9950 50  0001 C CNN
-	1    10500 9950
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:VDD #PWR0162
 U 1 1 61D5D079
 P 10200 9500
@@ -2653,12 +2618,6 @@ F 3 "" H 10200 9500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10200 9500 10200 9550
-Wire Wire Line
-	10200 9550 10300 9550
-Wire Wire Line
-	10000 9800 10000 9750
-Wire Wire Line
-	10000 9750 10300 9750
 Wire Wire Line
 	8250 4850 8250 4900
 $Comp
@@ -2760,32 +2719,10 @@ F 7 "RC0805JR-070RL" H 5950 9150 50  0001 C CNN "Manufacturer Part Number"
 	1    5350 9000
 	0    1    1    0   
 $EndComp
-$Comp
-L R-0-0805:0 R33
-U 1 1 617769B4
-P 5850 9000
-F 0 "R33" V 5643 9000 50  0000 C CNN
-F 1 "0" V 5734 9000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6750 8800 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 5850 9000 50  0001 C CNN
-F 4 "Digi-Key" H 6300 9000 50  0001 C CNN "Supplier 1"
-F 5 "311-0.0ARCT-ND" H 6450 8900 50  0001 C CNN "Supplier Part Number 1"
-F 6 "Yageo" H 6200 9250 50  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-070RL" H 6450 9150 50  0001 C CNN "Manufacturer Part Number"
-	1    5850 9000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5700 9000 5600 9000
 Wire Wire Line
 	5600 8950 5600 9000
-Connection ~ 5600 9000
 Wire Wire Line
 	5600 9000 5500 9000
-Wire Wire Line
-	6050 8950 6050 9000
-Wire Wire Line
-	6050 9000 6000 9000
 $Comp
 L power:GND #PWR0174
 U 1 1 6132AC93
@@ -3029,4 +2966,91 @@ Wire Notes Line style solid
 	6900 3100 11450 3100
 Wire Notes Line style solid
 	11450 3100 11450 800 
+$Comp
+L R-100k-0805:100k R4
+U 1 1 62136266
+P 5750 3650
+F 0 "R4" H 5820 3696 50  0000 L CNN
+F 1 "100k" H 5820 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7250 3900 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 5750 3650 50  0001 C CNN
+F 4 "Digi-Key" H 6200 3800 50  0001 C CNN "Supplier 1"
+F 5 "RMCF0805FG100KCT-ND" H 6900 3800 50  0001 C CNN "Supplier Part Number 1"
+F 6 "Stackpole Electronics Inc" H 6500 3700 50  0001 C CNN "Manufacturer_Name"
+F 7 "RMCF0805FG100K" H 6350 3600 50  0001 C CNN "Manufacturer_Part_Number"
+	1    5750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-100k-0805:100k R6
+U 1 1 6213726D
+P 7200 3650
+F 0 "R6" H 7270 3696 50  0000 L CNN
+F 1 "100k" H 7270 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8700 3900 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 7200 3650 50  0001 C CNN
+F 4 "Digi-Key" H 7650 3800 50  0001 C CNN "Supplier 1"
+F 5 "RMCF0805FG100KCT-ND" H 8350 3800 50  0001 C CNN "Supplier Part Number 1"
+F 6 "Stackpole Electronics Inc" H 7950 3700 50  0001 C CNN "Manufacturer_Name"
+F 7 "RMCF0805FG100K" H 7800 3600 50  0001 C CNN "Manufacturer_Part_Number"
+	1    7200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0103
+U 1 1 6213EA4E
+P 5750 3450
+F 0 "#PWR0103" H 5750 3300 50  0001 C CNN
+F 1 "VDD" H 5765 3623 50  0000 C CNN
+F 2 "" H 5750 3450 50  0001 C CNN
+F 3 "" H 5750 3450 50  0001 C CNN
+	1    5750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0104
+U 1 1 6215D04A
+P 7200 3450
+F 0 "#PWR0104" H 7200 3300 50  0001 C CNN
+F 1 "VDD" H 7215 3623 50  0000 C CNN
+F 2 "" H 7200 3450 50  0001 C CNN
+F 3 "" H 7200 3450 50  0001 C CNN
+	1    7200 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3900 7200 3800
+Connection ~ 7200 3900
+Wire Wire Line
+	7200 3450 7200 3500
+Wire Wire Line
+	5750 3500 5750 3450
+Wire Wire Line
+	5600 3900 5800 3900
+Wire Wire Line
+	5700 4000 5750 4000
+Wire Wire Line
+	5750 3800 5750 4000
+Connection ~ 5750 4000
+Wire Wire Line
+	5750 4000 5800 4000
+$Comp
+L Connector:Conn_01x04_Male J12
+U 1 1 622D640C
+P 10550 9750
+F 0 "J12" H 10600 9350 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 10800 9450 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10550 9750 50  0001 C CNN
+F 3 "~" H 10550 9750 50  0001 C CNN
+	1    10550 9750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10200 9550 10350 9550
+Wire Wire Line
+	10300 9650 10350 9650
+Wire Wire Line
+	10300 9750 10350 9750
+Wire Wire Line
+	10300 9850 10350 9850
 $EndSCHEMATC
