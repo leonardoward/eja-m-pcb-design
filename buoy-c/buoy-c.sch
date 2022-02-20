@@ -3053,4 +3053,52 @@ Wire Wire Line
 	10300 9750 10350 9750
 Wire Wire Line
 	10300 9850 10350 9850
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 62149BD5
+P 12250 8900
+F 0 "H2" H 12350 8946 50  0000 L CNN
+F 1 "MountingHole" H 12350 8855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 12250 8900 50  0001 C CNN
+F 3 "~" H 12250 8900 50  0001 C CNN
+	1    12250 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6214C3F0
+P 12250 9200
+F 0 "H3" H 12350 9246 50  0000 L CNN
+F 1 "MountingHole" H 12350 9155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 12250 9200 50  0001 C CNN
+F 3 "~" H 12250 9200 50  0001 C CNN
+	1    12250 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6214D8CC
+P 12250 8550
+F 0 "H1" H 12350 8596 50  0000 L CNN
+F 1 "MountingHole" H 12350 8505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 12250 8550 50  0001 C CNN
+F 3 "~" H 12250 8550 50  0001 C CNN
+	1    12250 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6214E616
+P 12250 9550
+F 0 "H4" H 12350 9596 50  0000 L CNN
+F 1 "MountingHole" H 12350 9505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 12250 9550 50  0001 C CNN
+F 3 "~" H 12250 9550 50  0001 C CNN
+	1    12250 9550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12250 8550
+NoConn ~ 12250 8900
+NoConn ~ 12250 9200
+NoConn ~ 12250 9550
 $EndSCHEMATC
